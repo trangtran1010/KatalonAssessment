@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BoIT_Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38fa063c-f8fd-4ae9-be91-65a68b7011fa</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42621261-4969-4af6-8cb3-bec3d142e335</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'BoIT_Management.xlsx'</defaultValue>
+      <description></description>
+      <id>42621261-4969-4af6-8cb3-bec3d142e335</id>
+      <masked>false</masked>
+      <name>data_file</name>
+   </variable>
+</TestCaseEntity>

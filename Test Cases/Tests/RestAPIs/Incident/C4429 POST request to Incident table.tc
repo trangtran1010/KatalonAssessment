@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>C4429 POST request to Incident table</name>
+   <tag>High, Performance,Service Now API</tag>
+   <integratedEntity>
+      <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
+      <properties>
+         <entry>
+            <key>testRail.testcase.id</key>
+            <value>4429</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>17daaa78-4590-46ae-a7a8-d3923e2dfe1a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dece5adb-464a-4249-887b-399bbe7da64a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{&quot;short_description&quot;:&quot;This is a test incident for NOW 682&quot;,&quot;description&quot;:&quot;This is a test incident for NOW 682&quot;}'</defaultValue>
+      <description></description>
+      <id>dece5adb-464a-4249-887b-399bbe7da64a</id>
+      <masked>false</masked>
+      <name>payload</name>
+   </variable>
+</TestCaseEntity>

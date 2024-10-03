@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>katalon-contact</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>40</initValue>
+      <name>sleepTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>smallSleepTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'trangthihuyentran@kms-technology.com'</initValue>
+      <name>userEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DpziWDpxQ5l5NUFKT8VCZg=='</initValue>
+      <name>pwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://thinking-tester-contact-list.herokuapp.com'</initValue>
+      <name>env</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test Data'</initValue>
+      <name>dataFileFolder</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>isScreenShot</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>20</initValue>
+      <name>sleepSomeTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Basic aG9uZ2xlQGttcy10ZWNobm9sb2d5LmNvbTokSDBuZ0wzJDIwOQ=='</initValue>
+      <name>encodedToken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>false</initValue>
+      <name>isAPIRunning</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'US/Eastern'</initValue>
+      <name>timeZone</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>navpage-left</name>
+   <tag></tag>
+   <elementGuidId>ef3ebe50-5d98-4058-a3db-0ed2c4bb78d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='${parentLabel}']/parent::a/following-sibling::ul//*[(text()='${childLabel}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='${parentLabel}']/parent::a/following-sibling::ul//*[(text()='${childLabel}')]</value>
+      <webElementGuid>1a41239a-c594-4257-8287-38c5f396d0a2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

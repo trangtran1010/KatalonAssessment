@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>C4427 GET request of a single records from Incident table</name>
+   <tag>High, Performance,Service Now API</tag>
+   <integratedEntity>
+      <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
+      <properties>
+         <entry>
+            <key>testRail.testcase.id</key>
+            <value>4427</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>ddaa04d6-aa97-4a05-9aa7-9dec25747e07</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85ecc9c6-9ee3-4846-831f-b7d51b1d6121</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'622dc4561b48d110aa10eb16624bcb5a'</defaultValue>
+      <description></description>
+      <id>85ecc9c6-9ee3-4846-831f-b7d51b1d6121</id>
+      <masked>false</masked>
+      <name>sys_id</name>
+   </variable>
+</TestCaseEntity>

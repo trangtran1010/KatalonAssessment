@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CM_Model</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97811bb7-3488-4532-8f3a-264de2421fa2</testCaseGuid>
+   <variable>
+      <defaultValue>'CM_Model.xlsx'</defaultValue>
+      <description></description>
+      <id>def68d03-ebb1-4828-b7e0-82b0c24461b7</id>
+      <masked>false</masked>
+      <name>data_file</name>
+   </variable>
+</TestCaseEntity>
