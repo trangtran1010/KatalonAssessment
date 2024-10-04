@@ -10,7 +10,6 @@ class LoginPage extends BasePage<LoginPage>{
 
 	def LoginPage enterCredential (String user = GlobalVariable.userEmail) {
 		WebUI.navigateToUrl(GlobalVariable.env)
-		switchToMainIframe()
 		String pwd = CryptoUtil.decode(CryptoUtil.getDefault(GlobalVariable.pwd))
 		WebUI.sendKeys(byId('email'),user)
 		WebUI.sendKeys(byId('password'),pwd)

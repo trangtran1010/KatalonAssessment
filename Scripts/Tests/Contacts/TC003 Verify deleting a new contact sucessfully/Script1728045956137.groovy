@@ -33,34 +33,22 @@ NPages.nav(ContactListPage).inputFirstName(first_name)
 '6. Click submit button'
 NPages.nav(ContactListPage).clickSubmitButton()
 
-'7. After creating Contact, User need to verify the created data should be displayed on table correctly'
-NPages.nav(ContactListPage).verifyDataDisplayOnGrid('Name', contact_name)
-	.verifyDataDisplayOnGrid('Birthdate', date_of_birth)
-	.verifyDataDisplayOnGrid('Email', email)
-	.verifyDataDisplayOnGrid('Phone', phone)
-	.verifyDataDisplayOnGrid('Address', street_address_1 + " " + street_address_2)
-	.verifyDataDisplayOnGrid('City, State/Province, Postal Code', city + " " + state_province + " " + postal_code)
-	.verifyDataDisplayOnGrid('Country', country)
+//'7. After creating Contact, User need to verify the created data should be displayed correctly'
+//NPages.nav(ContactListPage).verifyDataDisplayOnField('Name', contact_name)
+//	.verifyDataDisplayOnField('Email', email)
 
-NPages.takeScreenShot()
+//NPages.takeScreenShot()
 
 '8. User click on Contact in the column Name to open record detail page'
-NPages.nav(ContactListPage).clickOnCell(contact_name)
+NPages.nav(ContactListPage).clickOnCell('Name', contact_name)
+	
+'9. Click Delete contact button'
+NPages.nav(ContactListPage).clickDeleteContactButton()
 
-'9. User need to verify the created data should be displayed in details correctly'
-NPages.nav(ContactListPage).verifyDataDisplayOnField('First Name', first_name)
-	.verifyDataDisplayOnField('Last Name', last_name)
-	.verifyDataDisplayOnField('Date of Birth', date_of_birth)
-	.verifyDataDisplayOnField('Email', email)
-	.verifyDataDisplayOnField('Phone', phone)
-	.verifyDataDisplayOnField('Street Address 1', street_address_1)
-	.verifyDataDisplayOnField('Street Address 2', street_address_2)
-	.verifyDataDisplayOnField('City', city)
-	.verifyDataDisplayOnField('State or Province', state_province)
-	.verifyDataDisplayOnField('Postal Code', postal_code)
-	.verifyDataDisplayOnField('Country', country)
+'10. After deleting Contact, User need to verify the created data should be removed from table'
+NPages.nav(ContactListPage).verifyDataNotExist(contact_name)
 
 NPages.takeScreenShot()
 
-'10. Log out the app'
+'11. Log out the app'
 NPages.nav(HeaderPage).clickLogout()

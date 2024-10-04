@@ -59,4 +59,9 @@
       <initValue>'US/Eastern'</initValue>
       <name>timeZone</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://thinking-tester-contact-list.herokuapp.com'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

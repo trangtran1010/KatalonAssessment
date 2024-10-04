@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC001 Verify adding a new contact sucessfully</name>
+   <name>TC003 Verify deleting a new contact sucessfully</name>
    <tag>High,Smoke,Common Tables</tag>
    <comment></comment>
-   <testCaseGuid>122d8d11-3fa4-417c-b694-7f52443e71c1</testCaseGuid>
+   <testCaseGuid>9ee31380-4c9b-480c-b110-e9e2843ffbbf</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>65ca303a-28fe-468a-983f-9982a048cc35</id>
@@ -18,155 +18,155 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3835cc41-2198-47f4-9fab-b11f125bbffe</variableId>
+      <variableId>ecaadfec-548e-40c0-9995-578c14e5e051</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e00c9a54-00ba-4232-a0bf-4b83f188bcbd</variableId>
+      <variableId>21ebc3b3-c191-46b9-a242-099894841cdb</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3694bc0d-f8f8-4f56-913c-9aca5d907be7</variableId>
+      <variableId>68dfd603-e46f-44b7-8450-6a4d7a7a9585</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8378b205-3369-42fe-bdae-9aeb826ac5a2</variableId>
+      <variableId>69206e11-752c-4282-b492-99e5c679dd98</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>107c5d2e-7319-463e-9da6-5ccb05158f59</variableId>
+      <variableId>0ad458b4-dcc2-4f8d-8845-501982295a92</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d7ed3bad-0f15-40a9-b0af-e19d3cef2ee6</variableId>
+      <variableId>3aad15b8-06c1-47fa-8a08-1a0f83c1c76a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>dd8282bd-5332-4fa9-b824-e4bae726ac05</variableId>
+      <variableId>a4df182b-e40e-45c5-b7f6-a81968c7fb97</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>93504bc8-f87c-4a72-8923-d498104123b7</variableId>
+      <variableId>8f2c423b-2762-44fe-8439-39bd12a613f2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7f86bc61-d985-4918-bc84-8cedd104b189</variableId>
+      <variableId>1fd78524-9d4f-4569-9300-ce9296195463</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3c7e080a-8947-42b8-bb9c-22293cfcff3c</variableId>
+      <variableId>39bad5eb-f525-4612-a099-4e3ed0a3f428</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>04be4873-95d7-41a1-923e-8b393c810b34</variableId>
+      <variableId>6eee4f8c-1eba-4a96-a2fc-9ee131d763cc</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>42a3bb51-13d3-4ec5-810c-4e104b11ceba</variableId>
+      <variableId>def67dcb-5583-463d-afa4-d79f6bae9490</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'TC001 User Auto Test'</defaultValue>
+      <defaultValue>'TC003 User Auto Test'</defaultValue>
       <description></description>
-      <id>3835cc41-2198-47f4-9fab-b11f125bbffe</id>
+      <id>ecaadfec-548e-40c0-9995-578c14e5e051</id>
       <masked>false</masked>
       <name>contact_name</name>
    </variable>
    <variable>
-      <defaultValue>'TC001'</defaultValue>
+      <defaultValue>'TC003'</defaultValue>
       <description></description>
-      <id>e00c9a54-00ba-4232-a0bf-4b83f188bcbd</id>
+      <id>21ebc3b3-c191-46b9-a242-099894841cdb</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
       <defaultValue>'User Auto Test'</defaultValue>
       <description></description>
-      <id>3694bc0d-f8f8-4f56-913c-9aca5d907be7</id>
+      <id>68dfd603-e46f-44b7-8450-6a4d7a7a9585</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
       <defaultValue>'2000-10-10'</defaultValue>
       <description></description>
-      <id>8378b205-3369-42fe-bdae-9aeb826ac5a2</id>
+      <id>69206e11-752c-4282-b492-99e5c679dd98</id>
       <masked>false</masked>
       <name>date_of_birth</name>
    </variable>
    <variable>
       <defaultValue>'autouser@gmail.com'</defaultValue>
       <description></description>
-      <id>107c5d2e-7319-463e-9da6-5ccb05158f59</id>
+      <id>0ad458b4-dcc2-4f8d-8845-501982295a92</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
       <defaultValue>'0123454554'</defaultValue>
       <description></description>
-      <id>d7ed3bad-0f15-40a9-b0af-e19d3cef2ee6</id>
+      <id>3aad15b8-06c1-47fa-8a08-1a0f83c1c76a</id>
       <masked>false</masked>
       <name>phone</name>
    </variable>
    <variable>
-      <defaultValue>'TC001 Ngo Tu Liem 1'</defaultValue>
+      <defaultValue>'TC003 Ngo Tu Liem 1'</defaultValue>
       <description></description>
-      <id>dd8282bd-5332-4fa9-b824-e4bae726ac05</id>
+      <id>a4df182b-e40e-45c5-b7f6-a81968c7fb97</id>
       <masked>false</masked>
       <name>street_address_1</name>
    </variable>
    <variable>
-      <defaultValue>'TC001 Ngo Tu Liem 2'</defaultValue>
+      <defaultValue>'TC003 Ngo Tu Liem 2'</defaultValue>
       <description></description>
-      <id>93504bc8-f87c-4a72-8923-d498104123b7</id>
+      <id>8f2c423b-2762-44fe-8439-39bd12a613f2</id>
       <masked>false</masked>
       <name>street_address_2</name>
    </variable>
    <variable>
-      <defaultValue>'TC001 Quan 1'</defaultValue>
+      <defaultValue>'TC003 Quan 1'</defaultValue>
       <description></description>
-      <id>7f86bc61-d985-4918-bc84-8cedd104b189</id>
+      <id>1fd78524-9d4f-4569-9300-ce9296195463</id>
       <masked>false</masked>
       <name>city</name>
    </variable>
    <variable>
-      <defaultValue>'TC001 Ho Chi Minh'</defaultValue>
+      <defaultValue>'TC003 Ho Chi Minh'</defaultValue>
       <description></description>
-      <id>3c7e080a-8947-42b8-bb9c-22293cfcff3c</id>
+      <id>39bad5eb-f525-4612-a099-4e3ed0a3f428</id>
       <masked>false</masked>
       <name>state_province</name>
    </variable>
    <variable>
       <defaultValue>'55555'</defaultValue>
       <description></description>
-      <id>04be4873-95d7-41a1-923e-8b393c810b34</id>
+      <id>6eee4f8c-1eba-4a96-a2fc-9ee131d763cc</id>
       <masked>false</masked>
       <name>postal_code</name>
    </variable>
    <variable>
-      <defaultValue>'TC001 Viet Nam'</defaultValue>
+      <defaultValue>'TC003 Viet Nam'</defaultValue>
       <description></description>
-      <id>42a3bb51-13d3-4ec5-810c-4e104b11ceba</id>
+      <id>def67dcb-5583-463d-afa4-d79f6bae9490</id>
       <masked>false</masked>
       <name>country</name>
    </variable>
