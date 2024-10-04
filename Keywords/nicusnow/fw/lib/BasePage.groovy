@@ -7,26 +7,6 @@ import internal.GlobalVariable
 
 public class BasePage <T> extends NElements{
 
-	protected T switchToMainIframe () {
-
-		boolean isExisting= false
-
-		isExisting = WebUI.verifyElementPresent(iframe(), GlobalVariable.smallSleepTime,FailureHandling.OPTIONAL)
-		if (isExisting) {
-			WebUI.switchToFrame(iframe(),3)
-		}
-		return this
-	}
-
-	protected T switchOutIframe() {
-		WebUI.switchToDefaultContent()
-		return this
-	}
-
-	protected  boolean hasAttribute(TestObject e, String attributeName) {
-		return WebUI.getAttribute(e, attributeName, FailureHandling.OPTIONAL)
-	}
-
 	/**
 	 * Try to stop a little time
 	 * Return page object class

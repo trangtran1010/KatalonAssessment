@@ -21,7 +21,7 @@ public class HeaderPage extends BasePage<HeaderPage> {
 	 * @return the current page instance
 	 */
 	def HeaderPage clickLogout () {
-		WebUI.click(btn('Logout'))
+		WebUI.click(btn('logout'))
 		return this
 	}
 }

@@ -32,9 +32,9 @@ public class OnDataGrid extends BasePage<OnDataGrid> {
 		return this
 	}
 
-	def RightBar onRightBar () {
-		return NPages.nav(RightBar)
-	}
+//	def RightBar onRightBar () {
+//		return NPages.nav(RightBar)
+//	}
 
 	/****
 	 * This function use when user want to clean up all rows data all grid by click on check box "All" at the bottom of the each grid
