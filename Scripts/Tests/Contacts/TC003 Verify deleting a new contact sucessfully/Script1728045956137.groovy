@@ -33,14 +33,14 @@ NPages.nav(ContactListPage).inputFirstName(first_name)
 '6. Click submit button'
 NPages.nav(ContactListPage).clickSubmitButton()
 
-//'7. After creating Contact, User need to verify the created data should be displayed correctly'
-//NPages.nav(ContactListPage).verifyDataDisplayOnField('Name', contact_name)
-//	.verifyDataDisplayOnField('Email', email)
+'7. After creating Contact, User need to verify the created data should be displayed correctly'
+NPages.nav(ContactListPage).verifyDataDisplayOnGrid('Name', contact_name)
+	.verifyDataDisplayOnGrid('Email', email)
 
-//NPages.takeScreenShot()
+NPages.takeScreenShot()
 
 '8. User click on Contact in the column Name to open record detail page'
-NPages.nav(ContactListPage).clickOnCell('Name', contact_name)
+NPages.nav(ContactListPage).clickOnCell(contact_name)
 	
 '9. Click Delete contact button'
 NPages.nav(ContactListPage).clickDeleteContactButton()

@@ -152,6 +152,12 @@
       <value></value>
       <variableId>8cb27b74-9820-44fa-a977-797d106a35c3</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d6b2b97-af46-4208-a1f8-2c8d71bc5a3a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'TC002 User Auto Test'</defaultValue>
       <description></description>
@@ -312,5 +318,12 @@
       <id>8cb27b74-9820-44fa-a977-797d106a35c3</id>
       <masked>false</masked>
       <name>country_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC002 User Auto Test Edit'</defaultValue>
+      <description></description>
+      <id>0d6b2b97-af46-4208-a1f8-2c8d71bc5a3a</id>
+      <masked>false</masked>
+      <name>contact_name_edit</name>
    </variable>
 </TestCaseEntity>

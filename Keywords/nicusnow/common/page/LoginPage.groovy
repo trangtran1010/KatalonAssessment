@@ -25,4 +25,14 @@ class LoginPage extends BasePage<LoginPage>{
 		WebUI.navigateToUrl(env)
 		return this
 	}
+	
+	def LoginPage openLoginPage () {
+		WebUI.navigateToUrl(GlobalVariable.env)
+		return this
+	}
+	
+	def LoginPage clickSignUpButton () {
+		WebUI.click(btn('signup'))
+		return this
+	}
 }

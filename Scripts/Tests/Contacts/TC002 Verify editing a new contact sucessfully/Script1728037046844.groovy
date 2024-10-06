@@ -10,7 +10,7 @@ NPages.nav(LoginPage).enterCredential().clickSubmit()
 NPages.nav(HeaderPage).verifyUserLoginSucess()
 
 '3. On Contact List page, user find a contact list which is data to test to clean up before insert new'
-NPages.nav(ContactListPage).cleanUpDataTest(contact_name)
+NPages.nav(ContactListPage).cleanUpDataTest(contact_name).cleanUpDataTest(contact_name_edit)
 
 NPages.takeScreenShot()
 

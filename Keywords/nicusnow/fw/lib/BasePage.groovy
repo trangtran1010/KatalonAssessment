@@ -43,47 +43,9 @@ public class BasePage <T> extends NElements{
 		WebUI.sendKeys(to, value)
 	}
 
-	protected scrollToAndSendKeys(TestObject to, String value) {
-		WebUI.scrollToElement(to, 0)
-		WebUI.clearText(to)
-		WebUI.sendKeys(to, value)
-	}
-
-	protected scrollToAndClick(TestObject to) {
-		WebUI.scrollToElement(to, 0)
-		WebUI.click(to)
-	}
-
-	protected T switchToWindow(int ind=1) {
-		WebUI.switchToWindowIndex(ind)
-	}
-
-	protected T switchToWindowTitle(String title) {
-		WebUI.switchToWindowTitle(title)
-	}
-
-	/**
-	 * Try to scroll the screen to the web element
-	 * The reason have this function b/c scroll built-in of katalon do not work on the special page of the Nicus system
-	 * @param element
-	 */
-	protected scrollToObject(WebElement element){
-		WebUI.executeJavaScript("arguments[0].scrollIntoView(true)", Arrays.asList(element))
-		int desiredY = (element.size['height'] / 2) + element.location['y']
-		int windowH = 0
-		WebUI.executeJavaScript("arguments[0] = window.innerHeight", Arrays.asList(windowH))
-		int windowY = 0
-		WebUI.executeJavaScript("arguments[0] = window.pageYOffset", Arrays.asList(windowY))
-		int currentY = (windowH / 2) + windowY
-		int scrollYBy = desiredY - currentY
-		WebUI.executeJavaScript("window.scrollBy(0, arguments[0])", Arrays.asList(scrollYBy))
-		return this
-	}
-	
 	protected static void closeAndReopenBrowser() {
 		WebUI.closeBrowser()
 		WebUI.openBrowser(null)
 		WebUI.maximizeWindow()
 	}
-
 }

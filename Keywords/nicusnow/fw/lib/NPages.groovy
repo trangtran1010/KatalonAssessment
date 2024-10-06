@@ -17,8 +17,8 @@ public class NPages{
 
 	/***
 	 * 
-	 * @param <T> page object class . Ex - LoginPage | OnDataGrid
-	 * @param classOf - page object class . Ex - LoginPage | OnDataGrid
+	 * @param <T> page object class . Ex - LoginPage
+	 * @param classOf - page object class . Ex - LoginPage
 	 * @return a Page instance
 	 * @throws InstantiationException
 	 * @throws IllegalAccessException
