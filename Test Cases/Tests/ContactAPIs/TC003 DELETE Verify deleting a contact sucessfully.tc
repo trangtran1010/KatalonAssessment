@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003 DELETE Verify deleting a contact sucessfully</name>
+   <tag>High, Performance,Service Now API</tag>
+   <comment></comment>
+   <testCaseGuid>e3bc1326-f002-4f2a-b9bd-10233fcd805c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>488460ba-1e7d-46dd-aa1e-747f4699f791</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9541bc05-c7e4-4582-b14b-a6459c922f90</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b40f973-0526-4f8c-aad9-a8252be45574</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6af9b781-93df-490b-bb1a-63234291d171</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f53a0c31-0b4e-4fa8-acfc-d84de198b05e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;John&quot;,\r\n    &quot;lastName&quot;: &quot;Doe&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;jdoe@fake.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>488460ba-1e7d-46dd-aa1e-747f4699f791</id>
+      <masked>false</masked>
+      <name>add_contact_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'jdoe2@fake.com'</defaultValue>
+      <description></description>
+      <id>9541bc05-c7e4-4582-b14b-a6459c922f90</id>
+      <masked>false</masked>
+      <name>expected_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>3b40f973-0526-4f8c-aad9-a8252be45574</id>
+      <masked>false</masked>
+      <name>login_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'token'</defaultValue>
+      <description></description>
+      <id>6af9b781-93df-490b-bb1a-63234291d171</id>
+      <masked>false</masked>
+      <name>token</name>
+   </variable>
+   <variable>
+      <defaultValue>'Contact deleted'</defaultValue>
+      <description></description>
+      <id>f53a0c31-0b4e-4fa8-acfc-d84de198b05e</id>
+      <masked>false</masked>
+      <name>expected_message</name>
+   </variable>
+</TestCaseEntity>
