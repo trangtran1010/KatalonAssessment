@@ -1,5 +1,4 @@
 package katalon.fw.lib
-
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.RequestObject
@@ -8,7 +7,6 @@ import com.kms.katalon.core.testobject.TestObjectProperty
 import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import groovy.json.JsonSlurper
-import internal.GlobalVariable
 
 public class BaseAPI <T> {
 
@@ -66,6 +64,7 @@ public class BaseAPI <T> {
 
 	def verifyPropertyValueReponse (String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
+		System.out.println(jsonResponse)
 		desiredValue = jsonResponse[property]
 		WS.verifyEqual(jsonResponse[property], expected)
 		return this
@@ -93,11 +92,35 @@ public class BaseAPI <T> {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
 		desiredValue = jsonResponse[property]
 
-		if (jsonResponse.contains(expected)) {
+		if (desiredValue == expected) {
 			println("${property} ${expected} exist in the response.")
 		} else {
-			throw new Exception("${property} ${expected} exists in the response.")
+			throw new Exception("${property} ${expected} doesn't exists in the response.")
 		}
 		return this
 	}
+	
+	def verifyContentOfResponse(String expected) {
+		jsonResponse = response.getResponseBodyContent()
+
+		if (jsonResponse.contains(expected)) {
+			println("${expected} exist in the response.")
+		} else {
+			throw new Exception("${expected} doesn't exists in the response.")
+		}
+		return this
+	}
+	
+	def verifyChildPropertyInResponse(String property, String expected) {
+		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
+		desiredValue = jsonResponse.user[property]
+
+		if (jsonResponse == expected) {
+			throw new Exception("${property} ${expected} exists in the response.")
+		} else {
+			println("${property} ${expected} does not exist in the response.")
+		}
+		return this
+	}
+
 }

@@ -1,254 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC002 PUT request to update a contact successfully</name>
+   <name>TC002 PUT request to update a user successfully</name>
    <tag>High, Performance,Service Now API</tag>
    <comment></comment>
-   <testCaseGuid>aa8d26a0-b7ab-429e-9f3e-90f59433a73e</testCaseGuid>
+   <testCaseGuid>09a4884f-d47a-494a-95bd-84f5900fffd4</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>178f7ffd-b462-4fbe-af18-217bcf28474a</variableId>
+      <variableId>71d14faf-7fe7-40f7-a6a0-7321f120d2c6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>28294d78-00a7-41bb-a896-df719d0ab8fd</variableId>
+      <variableId>74c9b7d6-eb68-4e5e-8899-aedfa2f4ce05</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d600ec16-5440-4d78-9034-20f598a43555</variableId>
+      <variableId>e615411d-da7b-4e95-b667-dd2a71d4bf2d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d89f0d70-b65d-4668-b6e1-2643d27892a0</variableId>
+      <variableId>d9e69200-4cad-4aac-9a72-1972df42d788</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b4ada044-93f7-47cd-81c2-5149aa33de43</variableId>
+      <variableId>96c101b8-b413-47f5-be10-0a31d03398d6</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>221c838a-e789-45f7-aeea-468d64515171</variableId>
+      <variableId>bdc4dd54-15e8-4fa1-a823-560eaf826ba4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cdaf2fdc-d643-49d7-8225-c6032558a81a</variableId>
+      <variableId>e7ae765c-7bcf-4bc1-a5d6-82276ddc1bb4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>acac3ca9-f0d5-4b10-a0e8-4499369f7fca</variableId>
+      <variableId>1ec4a6c5-e847-4992-8364-c25fd9486368</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>69468062-312e-4bee-9291-28f2b8f5d034</variableId>
+      <variableId>e6f62587-39b7-480d-a5b1-087dc91ae07d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d450e16d-3342-4a72-abdf-d541a5e3093b</variableId>
+      <variableId>9bb20d14-e841-4fb4-8d0f-78c84b5ba570</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>96109b75-bc73-41db-8af3-4b309e3146c6</variableId>
+      <variableId>d4503d23-9d2f-46e9-b158-502ebf34450c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3a92b6a4-f32f-4c25-b5dd-adc9aeb8d04c</variableId>
+      <variableId>819d02ab-9f0d-48b9-a8af-a37265564650</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>804b5843-5773-4d95-9d89-279489edc844</variableId>
+      <variableId>205ab3c7-6310-4105-807c-18198014685a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1b54cc47-b06c-41fc-a71f-a79dbe708371</variableId>
+      <variableId>42068023-620f-4734-9806-b90bdb913046</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9f30ef68-84d9-47b1-a31f-cc0ef6a662ce</variableId>
+      <variableId>69fc28cb-b67d-4a86-bc1a-253a46c682ac</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6af57f10-7d8a-471f-b1f1-14b52143fbc8</variableId>
+      <variableId>2cbb9bf8-642f-455b-878e-3c5409e7a158</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cfd602a5-2878-4281-b1a0-f4d818bea772</variableId>
+      <variableId>838f79ac-fc25-4d79-8ded-4902de8106c7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8511901f-5c1b-49a9-9659-da46017d213e</variableId>
+      <variableId>199ea774-3fdb-4b55-a788-6525187d183a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fcf27df0-263d-4a38-bef1-64e1afd6d8a0</variableId>
+      <variableId>3dcf6ed5-91f3-44aa-b7fd-3d77db133f17</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;John&quot;,\r\n    &quot;lastName&quot;: &quot;Doe&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;jdoe10@fake.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;John&quot;,\r\n    &quot;lastName&quot;: &quot;Doe&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;jdoe@fake.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
       <description></description>
-      <id>178f7ffd-b462-4fbe-af18-217bcf28474a</id>
+      <id>71d14faf-7fe7-40f7-a6a0-7321f120d2c6</id>
       <masked>false</masked>
       <name>add_contact_body</name>
    </variable>
    <variable>
       <defaultValue>'jdoe@fake.com'</defaultValue>
       <description></description>
-      <id>28294d78-00a7-41bb-a896-df719d0ab8fd</id>
+      <id>74c9b7d6-eb68-4e5e-8899-aedfa2f4ce05</id>
       <masked>false</masked>
       <name>expected_email</name>
    </variable>
    <variable>
       <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
       <description></description>
-      <id>d600ec16-5440-4d78-9034-20f598a43555</id>
+      <id>e615411d-da7b-4e95-b667-dd2a71d4bf2d</id>
       <masked>false</masked>
       <name>login_body</name>
    </variable>
    <variable>
       <defaultValue>'token'</defaultValue>
       <description></description>
-      <id>d89f0d70-b65d-4668-b6e1-2643d27892a0</id>
+      <id>d9e69200-4cad-4aac-9a72-1972df42d788</id>
       <masked>false</masked>
       <name>token</name>
    </variable>
    <variable>
       <defaultValue>'John'</defaultValue>
       <description></description>
-      <id>b4ada044-93f7-47cd-81c2-5149aa33de43</id>
+      <id>96c101b8-b413-47f5-be10-0a31d03398d6</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
       <defaultValue>'Doe'</defaultValue>
       <description></description>
-      <id>221c838a-e789-45f7-aeea-468d64515171</id>
+      <id>bdc4dd54-15e8-4fa1-a823-560eaf826ba4</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'jdoe10@fake.com'</defaultValue>
+      <defaultValue>'jdoe@fake.com'</defaultValue>
       <description></description>
-      <id>cdaf2fdc-d643-49d7-8225-c6032558a81a</id>
+      <id>e7ae765c-7bcf-4bc1-a5d6-82276ddc1bb4</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
       <defaultValue>'John Edit'</defaultValue>
       <description></description>
-      <id>acac3ca9-f0d5-4b10-a0e8-4499369f7fca</id>
+      <id>1ec4a6c5-e847-4992-8364-c25fd9486368</id>
       <masked>false</masked>
       <name>first_name_edit</name>
    </variable>
    <variable>
       <defaultValue>'Doe Edit'</defaultValue>
       <description></description>
-      <id>69468062-312e-4bee-9291-28f2b8f5d034</id>
+      <id>e6f62587-39b7-480d-a5b1-087dc91ae07d</id>
       <masked>false</masked>
       <name>last_name_edit</name>
    </variable>
    <variable>
       <defaultValue>'2000-01-01'</defaultValue>
       <description></description>
-      <id>d450e16d-3342-4a72-abdf-d541a5e3093b</id>
+      <id>9bb20d14-e841-4fb4-8d0f-78c84b5ba570</id>
       <masked>false</masked>
       <name>birthday_edit</name>
    </variable>
    <variable>
       <defaultValue>'jdoeedit@fake.com'</defaultValue>
       <description></description>
-      <id>96109b75-bc73-41db-8af3-4b309e3146c6</id>
+      <id>d4503d23-9d2f-46e9-b158-502ebf34450c</id>
       <masked>false</masked>
       <name>email_edit</name>
    </variable>
    <variable>
       <defaultValue>'8005555333'</defaultValue>
       <description></description>
-      <id>3a92b6a4-f32f-4c25-b5dd-adc9aeb8d04c</id>
+      <id>819d02ab-9f0d-48b9-a8af-a37265564650</id>
       <masked>false</masked>
       <name>phone_edit</name>
    </variable>
    <variable>
       <defaultValue>'1 Main St. Edit'</defaultValue>
       <description></description>
-      <id>804b5843-5773-4d95-9d89-279489edc844</id>
+      <id>205ab3c7-6310-4105-807c-18198014685a</id>
       <masked>false</masked>
       <name>street1_edit</name>
    </variable>
    <variable>
       <defaultValue>'Apartment A Edit'</defaultValue>
       <description></description>
-      <id>1b54cc47-b06c-41fc-a71f-a79dbe708371</id>
+      <id>42068023-620f-4734-9806-b90bdb913046</id>
       <masked>false</masked>
       <name>street2_edit</name>
    </variable>
    <variable>
       <defaultValue>'KS Edit'</defaultValue>
       <description></description>
-      <id>9f30ef68-84d9-47b1-a31f-cc0ef6a662ce</id>
+      <id>69fc28cb-b67d-4a86-bc1a-253a46c682ac</id>
       <masked>false</masked>
       <name>state_province_edit</name>
    </variable>
    <variable>
       <defaultValue>'12222'</defaultValue>
       <description></description>
-      <id>6af57f10-7d8a-471f-b1f1-14b52143fbc8</id>
+      <id>2cbb9bf8-642f-455b-878e-3c5409e7a158</id>
       <masked>false</masked>
       <name>postal_code_edit</name>
    </variable>
    <variable>
       <defaultValue>'USA Edit'</defaultValue>
       <description></description>
-      <id>cfd602a5-2878-4281-b1a0-f4d818bea772</id>
+      <id>838f79ac-fc25-4d79-8ded-4902de8106c7</id>
       <masked>false</masked>
       <name>country_edit</name>
    </variable>
    <variable>
       <defaultValue>'Anytown Edit'</defaultValue>
       <description></description>
-      <id>8511901f-5c1b-49a9-9659-da46017d213e</id>
+      <id>199ea774-3fdb-4b55-a788-6525187d183a</id>
       <masked>false</masked>
       <name>city_edit</name>
    </variable>
    <variable>
       <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;John Edit&quot;,\r\n    &quot;lastName&quot;: &quot;Doe Edit&quot;,\r\n    &quot;birthdate&quot;: &quot;2000-01-01&quot;,\r\n    &quot;email&quot;: &quot;jdoeedit@fake.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555333&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St. Edit&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A Edit&quot;,\r\n    &quot;city&quot;: &quot;Anytown Edit&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS Edit&quot;,\r\n    &quot;postalCode&quot;: &quot;12222&quot;,\r\n    &quot;country&quot;: &quot;USA Edit&quot;\r\n}'</defaultValue>
       <description></description>
-      <id>fcf27df0-263d-4a38-bef1-64e1afd6d8a0</id>
+      <id>3dcf6ed5-91f3-44aa-b7fd-3d77db133f17</id>
       <masked>false</masked>
       <name>update_contact_body</name>
    </variable>

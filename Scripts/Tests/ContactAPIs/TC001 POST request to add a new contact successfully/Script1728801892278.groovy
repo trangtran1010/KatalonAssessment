@@ -11,20 +11,9 @@ NPages.nav(Contact).initRequestObject()
 		.verifyStatusCode(200)
 		.getTextOfPropertyResponse(token)
 
-//'2. User delete existing contact before create a new contact'
-String token = NPages.nav(Contact).getTextOfPropertyResponse(token)
-//NPages.nav(IncidentService).initRequestObject()
-//	   .setUrl('/contacts')
-//	   .setBasicAuthorizationHeader(token)
-//	   .setJsonContentTypeHeader()
-//	   .setPayLoad(add_contact_body)
-//	   .sendDeleteRequest()
-//	   .verifyStatusCode(201)
-//	   .verifyPropertyValueReponse('message', expected_message)
-
-'3. User use token to call API'		
+'2. User use token to call API'		
 String token = NPages.nav(Contact).getTextOfPropertyResponse(token)							 
-NPages.nav(IncidentService).initRequestObject()
+NPages.nav(Contact).initRequestObject()
 	   .setUrl('/contacts')
 	   .setBasicAuthorizationHeader(token)   
 	   .setJsonContentTypeHeader()

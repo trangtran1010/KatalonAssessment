@@ -1,7 +1,7 @@
-import nicusnow.common.page.HeaderPage
-import nicusnow.common.page.LoginPage
-import nicusnow.common.table.ContactListPage
-import nicusnow.fw.lib.NPages
+import katalon.common.page.HeaderPage
+import katalon.common.page.LoginPage
+import katalon.common.table.ContactListPage
+import katalon.fw.lib.NPages
 
 '1. User enter credential to login to the system'
 NPages.nav(LoginPage).enterCredential().clickSubmit()

@@ -27,12 +27,6 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7807fecd-c732-48f0-ae98-82c7abf8a01f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
          <variableId>63ec0a27-577a-457e-bd84-b58dbb64dfda</variableId>
       </variableLink>
       <variableLink>
@@ -233,26 +227,8 @@
       <guid>5dcd48eb-ed97-4002-9a5d-7f3ac8d7481f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/ContactAPIs/TC003 DELETE Verify deleting a contact sucessfully</testCaseId>
+      <testCaseId>Test Cases/Tests/ContactAPIs/TC003 DELETE Verify deleting contact API return 503</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>488460ba-1e7d-46dd-aa1e-747f4699f791</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9541bc05-c7e4-4582-b14b-a6459c922f90</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3b40f973-0526-4f8c-aad9-a8252be45574</variableId>
-      </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -264,6 +240,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>f53a0c31-0b4e-4fa8-acfc-d84de198b05e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3b40f973-0526-4f8c-aad9-a8252be45574</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

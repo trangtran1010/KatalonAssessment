@@ -15,12 +15,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7807fecd-c732-48f0-ae98-82c7abf8a01f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>63ec0a27-577a-457e-bd84-b58dbb64dfda</variableId>
    </variableLinks>
    <variableLinks>
@@ -96,18 +90,11 @@
       <variableId>0a48d337-3160-40e3-aff6-173c35865f8b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;John&quot;,\r\n    &quot;lastName&quot;: &quot;Doe&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;jdoe@fake.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;contactautotest@tc001.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
       <description></description>
       <id>5c11a575-09a4-4cce-82e9-1696aedba7fa</id>
       <masked>false</masked>
       <name>add_contact_body</name>
-   </variable>
-   <variable>
-      <defaultValue>'jdoe@fake.com'</defaultValue>
-      <description></description>
-      <id>7807fecd-c732-48f0-ae98-82c7abf8a01f</id>
-      <masked>false</masked>
-      <name>expected_email</name>
    </variable>
    <variable>
       <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
@@ -124,14 +111,14 @@
       <name>token</name>
    </variable>
    <variable>
-      <defaultValue>'John'</defaultValue>
+      <defaultValue>'TC001'</defaultValue>
       <description></description>
       <id>ccabcd28-c652-47df-aa9c-406a8a8ed021</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
-      <defaultValue>'Doe'</defaultValue>
+      <defaultValue>'Contact Auto Test'</defaultValue>
       <description></description>
       <id>1ab396e4-f9f3-45c4-8c6c-a612fb26dd96</id>
       <masked>false</masked>
@@ -145,7 +132,7 @@
       <name>birthday</name>
    </variable>
    <variable>
-      <defaultValue>'jdoe@fake.com'</defaultValue>
+      <defaultValue>'contactautotest@tc001.com'</defaultValue>
       <description></description>
       <id>99f0c8a5-a986-439a-9a3f-0f90637ef52a</id>
       <masked>false</masked>

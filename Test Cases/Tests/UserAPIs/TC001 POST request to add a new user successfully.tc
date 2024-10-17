@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 POST request to add a new user successfully</name>
+   <tag>High, Performance,Service Now API</tag>
+   <comment></comment>
+   <testCaseGuid>3f771792-3b1e-4fa8-9777-da50d4d1b102</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4d91488b-51e4-445e-8c6b-c3a064be608e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a888ee91-2e1c-4825-af87-31d99071e25b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5291b21d-b1c0-430d-a2fa-d6c6cf1a05da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8597cf7d-ceb9-4e03-b798-20be5d16610b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>111f9702-f201-4898-ba13-97ff71bd7a1f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d36f183d-f014-43bb-9f85-09806ddc4a8f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test&quot;,\r\n    &quot;email&quot;: &quot;userautotest3@tc001.com&quot;,\r\n    &quot;password&quot;: &quot;myPassword&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>4d91488b-51e4-445e-8c6b-c3a064be608e</id>
+      <masked>false</masked>
+      <name>add_user_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'userautotest3@tc001.com'</defaultValue>
+      <description></description>
+      <id>a888ee91-2e1c-4825-af87-31d99071e25b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'token'</defaultValue>
+      <description></description>
+      <id>5291b21d-b1c0-430d-a2fa-d6c6cf1a05da</id>
+      <masked>false</masked>
+      <name>token</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC001'</defaultValue>
+      <description></description>
+      <id>8597cf7d-ceb9-4e03-b798-20be5d16610b</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'User Auto Test'</defaultValue>
+      <description></description>
+      <id>111f9702-f201-4898-ba13-97ff71bd7a1f</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>d36f183d-f014-43bb-9f85-09806ddc4a8f</id>
+      <masked>false</masked>
+      <name>login_body</name>
+   </variable>
+</TestCaseEntity>

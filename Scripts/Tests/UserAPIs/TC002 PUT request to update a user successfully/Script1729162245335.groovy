@@ -1,8 +1,8 @@
-import katalon.api.contact.Contact
+import katalon.api.user.User
 import katalon.fw.lib.NPages
 		
 '1. User login to system to get Token'
-NPages.nav(Contact).initRequestObject()
+NPages.nav(User).initRequestObject()
 		.setUrl('/users/login')
 		.setBasicAuthorizationHeader(token)
 		.setJsonContentTypeHeader()
@@ -11,9 +11,9 @@ NPages.nav(Contact).initRequestObject()
 		.verifyStatusCode(200)
 		.getTextOfPropertyResponse(token)
 
-'2. User create a new contact by API'		
-NPages.nav(Contact).initRequestObject()
-   		.setUrl('/contacts')
+'2. User use token to call API'		
+NPages.nav(User).initRequestObject()
+   		.setUrl('/user')
    		.setBasicAuthorizationHeader(token)   
    		.setJsonContentTypeHeader()
    		.setPayLoad(add_contact_body)
@@ -23,7 +23,7 @@ NPages.nav(Contact).initRequestObject()
    		.verifyPropertyValueReponse('lastName', last_name)
    		.verifyPropertyValueReponse('email', email)
 
-'3. User update the contact'
+'3. User update the user'
 NPages.nav(Contact).initRequestObject()
 		.setUrl('/contacts')
 		.setBasicAuthorizationHeader(token)
@@ -43,7 +43,7 @@ NPages.nav(Contact).initRequestObject()
 		.verifyPropertyValueReponse('country', country_edit)
 		.verifyPropertyValueReponse('city', city_edit)
 		
-'4. User verify contact data after updated'
+'5. User verify contact data after updated'
 NPages.nav(Contact).initRequestObject()
 		.setUrl('/contacts')
 		.setBasicAuthorizationHeader(token)

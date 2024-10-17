@@ -55,12 +55,12 @@ public class ContactListPage extends BasePage<ContactListPage> {
 
 	def ContactListPage cleanUpDataTest (String value) {
 		boolean dataExists = isExist(value)
-				if (dataExists) {
-					clickOnCell(value)
-					clickDeleteContactButton()
-				}else {
-					return this
-				}
+			if (dataExists) {
+				clickOnCell(value)
+				clickDeleteContactButton()
+			}else {
+				return this
+			}
 	}
 
 	def ContactListPage inputFirstName (String value) {
@@ -120,7 +120,7 @@ public class ContactListPage extends BasePage<ContactListPage> {
 
 
 	def ContactListPage clickDeleteContact() {
-		scrollToAndClick(btn('delete'))
+		WebUI.click(btn('delete'))
 		return this
 	}
 
