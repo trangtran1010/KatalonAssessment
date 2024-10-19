@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 PUT Verify updating user API return 503</name>
+   <tag>High, Performance,Service Now API</tag>
+   <comment></comment>
+   <testCaseGuid>09a4884f-d47a-494a-95bd-84f5900fffd4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71d14faf-7fe7-40f7-a6a0-7321f120d2c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e615411d-da7b-4e95-b667-dd2a71d4bf2d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9e69200-4cad-4aac-9a72-1972df42d788</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96c101b8-b413-47f5-be10-0a31d03398d6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bdc4dd54-15e8-4fa1-a823-560eaf826ba4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7ae765c-7bcf-4bc1-a5d6-82276ddc1bb4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3dcf6ed5-91f3-44aa-b7fd-3d77db133f17</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>540acda8-a0a1-4381-993e-eeb3e2dfe260</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test&quot;,\r\n    &quot;email&quot;: &quot;userautotest8.tc002@gmail.com&quot;,\r\n    &quot;password&quot;: &quot;myPassword&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>71d14faf-7fe7-40f7-a6a0-7321f120d2c6</id>
+      <masked>false</masked>
+      <name>add_user_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>e615411d-da7b-4e95-b667-dd2a71d4bf2d</id>
+      <masked>false</masked>
+      <name>login_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'token'</defaultValue>
+      <description></description>
+      <id>d9e69200-4cad-4aac-9a72-1972df42d788</id>
+      <masked>false</masked>
+      <name>token</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC002'</defaultValue>
+      <description></description>
+      <id>96c101b8-b413-47f5-be10-0a31d03398d6</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'User Auto Test'</defaultValue>
+      <description></description>
+      <id>bdc4dd54-15e8-4fa1-a823-560eaf826ba4</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'userautotest8.tc002@gmail.com'</defaultValue>
+      <description></description>
+      <id>e7ae765c-7bcf-4bc1-a5d6-82276ddc1bb4</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002 Edit&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test Edit&quot;,\r\n    &quot;email&quot;: &quot;userautotest7edit@tc002.com&quot;,\r\n    &quot;password&quot;: &quot;myPasswordEdit&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>3dcf6ed5-91f3-44aa-b7fd-3d77db133f17</id>
+      <masked>false</masked>
+      <name>update_user_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'Application Error'</defaultValue>
+      <description></description>
+      <id>540acda8-a0a1-4381-993e-eeb3e2dfe260</id>
+      <masked>false</masked>
+      <name>expected_message</name>
+   </variable>
+</TestCaseEntity>

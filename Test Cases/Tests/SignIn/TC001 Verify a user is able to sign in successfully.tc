@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 Verify a user is able to sign in successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20d92a2f-d185-4f7d-8029-31892b2e592b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cece8c58-8f20-44c9-bb5b-ca3012d50dfc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb20057d-e1dc-47d0-88e9-36c773dc42b2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cdcfcba1-a143-47c3-ae75-710b246ddfee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Login'</defaultValue>
+      <description></description>
+      <id>cece8c58-8f20-44c9-bb5b-ca3012d50dfc</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'User'</defaultValue>
+      <description></description>
+      <id>eb20057d-e1dc-47d0-88e9-36c773dc42b2</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'myPassword'</defaultValue>
+      <description></description>
+      <id>cdcfcba1-a143-47c3-ae75-710b246ddfee</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

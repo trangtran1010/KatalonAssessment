@@ -7,45 +7,19 @@ import internal.GlobalVariable
 
 public class BasePage <T> extends NElements{
 
-	/**
-	 * Try to stop a little time
-	 * Return page object class
-	 */
-	protected T sleepAlittleTime() {
-		WebUI.delay(GlobalVariable.smallSleepTime)
-		return this
-	}
-
-	/**
-	 * Try to stop a some time, it is longer than sleepAlittleTIme
-	 * Return page object class
-	 */
-	protected T sleepSomeTime() {
-		WebUI.delay(GlobalVariable.sleepSomeTime)
-		return this
-	}
-
-	/**
-	 * Try to stop a some time, it is longer than sleepSomeTime 10s
-	 * Return page object class
-	 */
-	protected T sleepTime() {
-		WebUI.delay(GlobalVariable.sleepTime)
-	}
-
-	protected T refreshPage() {
-		WebUI.refresh()
-		return this
-	}
-
 	protected clearTextAndSendKeys(TestObject to, String value) {
 		WebUI.clearText(to)
 		WebUI.sendKeys(to, value)
 	}
 
+	protected static void openBrowser() {
+		WebUI.openBrowser(GlobalVariable.env)
+		WebUI.maximizeWindow()
+	}
+	
 	protected static void closeAndReopenBrowser() {
 		WebUI.closeBrowser()
-		WebUI.openBrowser(null)
+		WebUI.openBrowser(GlobalVariable.env)
 		WebUI.maximizeWindow()
 	}
 }

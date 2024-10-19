@@ -9,19 +9,20 @@ NPages.nav(Contact).initRequestObject()
 		.setPayLoad(login_body)
 		.sendPostRequest()
 		.verifyStatusCode(200)
-			
+		.getTextOfPropertyResponse(token)
+
 '2. User create a contact by API'		
 String token = NPages.nav(Contact).getTextOfPropertyResponse(token)		
 
 String generateEmail() {
-	return "tc001" + (new Random().nextInt(10000)) + "@gmail.com"
+	return "tc002" + (new Random().nextInt(10000)) + "@gmail.com"
 }
 
 String email = generateEmail()
 
 def requestBody = [
 	"email": email,
-	"firstName": "TC001",
+	"firstName": "TC002",
     "lastName": "Contact Auto Test",
     "birthdate": "1970-01-01",
     "phone": "8005555555",
@@ -44,13 +45,15 @@ NPages.nav(Contact).initRequestObject()
 	   .verifyStatusCode(201)
 	   .verifyPropertyValueReponse('firstName', first_name)
 	   .verifyPropertyValueReponse('lastName', last_name)
-	   .verifyPropertyValueReponse('birthdate', birthday)
 	   .verifyPropertyValueReponse('email', email)
-	   .verifyPropertyValueReponse('phone', phone)
-	   .verifyPropertyValueReponse('street1', street1)
-	   .verifyPropertyValueReponse('street2', street2)
-	   .verifyPropertyValueReponse('stateProvince', state_province)	
-	   .verifyPropertyValueReponse('postalCode', postal_code)
-	   .verifyPropertyValueReponse('country', country)
-	   .verifyPropertyValueReponse('city', city)
+
+'3. User update the contact'
+NPages.nav(Contact).initRequestObject()
+		.setUrl('/contacts')
+		.setBasicAuthorizationHeader(token)
+		.setJsonContentTypeHeader()
+		.setPayLoad(update_contact_body)
+		.sendPutRequest()
+		.verifyStatusCode(503)
+		.verifyContentOfResponse(expected_message)
 													

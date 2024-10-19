@@ -159,7 +159,7 @@
       <variableId>0d6b2b97-af46-4208-a1f8-2c8d71bc5a3a</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'TC002 User Auto Test'</defaultValue>
+      <defaultValue>'TC002 Contact Auto Test'</defaultValue>
       <description></description>
       <id>7d631ef3-3c5b-4016-95b1-916e21f5e1a0</id>
       <masked>false</masked>
@@ -173,7 +173,7 @@
       <name>first_name</name>
    </variable>
    <variable>
-      <defaultValue>'User Auto Test'</defaultValue>
+      <defaultValue>'Contact Auto Test'</defaultValue>
       <description></description>
       <id>c8e4e536-ee54-4e40-bd16-322cd20503c0</id>
       <masked>false</masked>
@@ -187,7 +187,7 @@
       <name>date_of_birth</name>
    </variable>
    <variable>
-      <defaultValue>'autouser@gmail.com'</defaultValue>
+      <defaultValue>'contactautouser.tc002@gmail.com'</defaultValue>
       <description></description>
       <id>f227b25b-49bd-4a5a-ae4e-7cb39a689db3</id>
       <masked>false</masked>
@@ -243,7 +243,7 @@
       <name>country</name>
    </variable>
    <variable>
-      <defaultValue>'TC002 User Auto Test'</defaultValue>
+      <defaultValue>'TC002 Contact Auto Test'</defaultValue>
       <description></description>
       <id>d656c3ef-7c7e-42ca-83d0-95f6c5b96910</id>
       <masked>false</masked>
@@ -264,7 +264,7 @@
       <name>date_of_birth_edit</name>
    </variable>
    <variable>
-      <defaultValue>'autouseredit@gmail.com'</defaultValue>
+      <defaultValue>'contactautouseredit.tc002@gmail.com'</defaultValue>
       <description></description>
       <id>ad009ea4-fb3a-47c9-9ce5-676bd89906aa</id>
       <masked>false</masked>
@@ -320,7 +320,7 @@
       <name>country_edit</name>
    </variable>
    <variable>
-      <defaultValue>'TC002 User Auto Test Edit'</defaultValue>
+      <defaultValue>'TC002 Contact Auto Test Edit'</defaultValue>
       <description></description>
       <id>0d6b2b97-af46-4208-a1f8-2c8d71bc5a3a</id>
       <masked>false</masked>

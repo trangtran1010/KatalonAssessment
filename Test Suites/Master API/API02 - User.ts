@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>API01 - Contact</name>
+   <name>API02 - User</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,188 +10,152 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>e447af34-09ad-4260-b99e-52ae83a86329</testSuiteGuid>
+   <testSuiteGuid>3b8f8280-6394-4c28-8eda-8ae99495109b</testSuiteGuid>
    <testCaseLink>
-      <guid>e63637d2-8ed6-409b-9480-3b498553c98a</guid>
+      <guid>40c4a771-82d1-4668-94a8-8e1fcc3e3fef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/ContactAPIs/TC001 POST request to add a new contact successfully</testCaseId>
+      <testCaseId>Test Cases/Tests/UserAPIs/TC001 POST request to add a new user successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5c11a575-09a4-4cce-82e9-1696aedba7fa</variableId>
+         <variableId>4d91488b-51e4-445e-8c6b-c3a064be608e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>63ec0a27-577a-457e-bd84-b58dbb64dfda</variableId>
+         <variableId>a888ee91-2e1c-4825-af87-31d99071e25b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>eb5d5f2c-36bd-446f-add6-8567589de211</variableId>
+         <variableId>5291b21d-b1c0-430d-a2fa-d6c6cf1a05da</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ccabcd28-c652-47df-aa9c-406a8a8ed021</variableId>
+         <variableId>8597cf7d-ceb9-4e03-b798-20be5d16610b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1ab396e4-f9f3-45c4-8c6c-a612fb26dd96</variableId>
+         <variableId>111f9702-f201-4898-ba13-97ff71bd7a1f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3b9c734a-3128-4f24-945d-38dff4088cc5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9f34f8e3-d264-4482-9dd7-4fd8c40e1c40</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6f4b9826-20d4-472c-9126-7ff24dc4120c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>27881408-5a6f-42ef-b84e-58ab9f7b05da</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d50c8a0b-dd43-4742-a24d-96cbfa49662f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4b5023d8-94d8-4ed9-83bf-a9893c923d22</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>901184f6-7e15-4c10-aafb-a3c01544b6e9</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0a48d337-3160-40e3-aff6-173c35865f8b</variableId>
+         <variableId>d36f183d-f014-43bb-9f85-09806ddc4a8f</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a11bfb8d-2a50-425e-9791-12062eb7db6e</guid>
+      <guid>b9836cf2-5bcf-409c-ad24-bbf585a0b667</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/ContactAPIs/TC002 PUT Verify updating contact API return 503</testCaseId>
+      <testCaseId>Test Cases/Tests/UserAPIs/TC002 PUT Verify updating user API return 503</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>178f7ffd-b462-4fbe-af18-217bcf28474a</variableId>
+         <variableId>71d14faf-7fe7-40f7-a6a0-7321f120d2c6</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d600ec16-5440-4d78-9034-20f598a43555</variableId>
+         <variableId>e615411d-da7b-4e95-b667-dd2a71d4bf2d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d89f0d70-b65d-4668-b6e1-2643d27892a0</variableId>
+         <variableId>d9e69200-4cad-4aac-9a72-1972df42d788</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b4ada044-93f7-47cd-81c2-5149aa33de43</variableId>
+         <variableId>96c101b8-b413-47f5-be10-0a31d03398d6</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>221c838a-e789-45f7-aeea-468d64515171</variableId>
+         <variableId>bdc4dd54-15e8-4fa1-a823-560eaf826ba4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>cdaf2fdc-d643-49d7-8225-c6032558a81a</variableId>
+         <variableId>e7ae765c-7bcf-4bc1-a5d6-82276ddc1bb4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>fcf27df0-263d-4a38-bef1-64e1afd6d8a0</variableId>
+         <variableId>3dcf6ed5-91f3-44aa-b7fd-3d77db133f17</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>540acda8-a0a1-4381-993e-eeb3e2dfe260</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5dcd48eb-ed97-4002-9a5d-7f3ac8d7481f</guid>
+      <guid>bf86f5d2-0d25-4db1-9020-28141e974a9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/ContactAPIs/TC003 DELETE Verify deleting contact API return 503</testCaseId>
+      <testCaseId>Test Cases/Tests/UserAPIs/TC003 DELETE Verify deleting user API return 503</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6af9b781-93df-490b-bb1a-63234291d171</variableId>
+         <variableId>d0738144-d4a3-44e3-b07f-aa21a9921149</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f53a0c31-0b4e-4fa8-acfc-d84de198b05e</variableId>
+         <variableId>c534ed7f-c6b8-44a8-a822-c7aae2bf7718</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3b40f973-0526-4f8c-aad9-a8252be45574</variableId>
+         <variableId>870e1cb9-4634-45d7-affe-71be48548478</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7fa27495-5790-4344-8fd7-0fb21ca7b0df</variableId>
+         <variableId>97a156ba-5bed-4fbb-880d-baade984938c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>1344977e-54a7-446e-8bef-812b8ca974de</variableId>
+         <variableId>b7b0b078-5bba-4fa6-884b-10dc81bef67f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c6e133f8-64c0-462c-87bd-77adca8ae8ec</variableId>
+         <variableId>fd134146-d751-450c-b63a-eed4208c1ca0</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9aa725b0-db6a-4130-b52e-df6a74f5e17d</variableId>
+         <variableId>4a92de5b-aeba-4dc8-88bb-eca41be7edf7</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

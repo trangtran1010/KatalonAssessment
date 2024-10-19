@@ -42,14 +42,14 @@
       <variableId>d36f183d-f014-43bb-9f85-09806ddc4a8f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test&quot;,\r\n    &quot;email&quot;: &quot;userautotest3@tc001.com&quot;,\r\n    &quot;password&quot;: &quot;myPassword&quot;\r\n}'</defaultValue>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test&quot;,\r\n    &quot;email&quot;: &quot;userautotest3.tc001@gmail.com&quot;,\r\n    &quot;password&quot;: &quot;myPassword&quot;\r\n}'</defaultValue>
       <description></description>
       <id>4d91488b-51e4-445e-8c6b-c3a064be608e</id>
       <masked>false</masked>
       <name>add_user_body</name>
    </variable>
    <variable>
-      <defaultValue>'userautotest3@tc001.com'</defaultValue>
+      <defaultValue>'userautotest3.tc001@gmail.com'</defaultValue>
       <description></description>
       <id>a888ee91-2e1c-4825-af87-31d99071e25b</id>
       <masked>false</masked>

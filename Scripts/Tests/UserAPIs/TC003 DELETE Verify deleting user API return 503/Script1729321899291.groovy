@@ -9,18 +9,18 @@ NPages.nav(User).initRequestObject()
 		.setPayLoad(login_body)
 		.sendPostRequest()
 		.verifyStatusCode(200)
-
+		
 '2. User create an user'		
 String token = NPages.nav(User).getTextOfPropertyResponse(token)	
 		
 String generateEmail() {
-    return "tc001" + (new Random().nextInt(10000)) + "@gmail.com"
+    return "tc003" + (new Random().nextInt(10000)) + "@gmail.com"
 }
 
 String email = generateEmail()
 
 def requestBody = [
-    "firstName": "TC001",
+    "firstName": "TC003",
     "lastName": "User Auto Test",
     "email": email,
     "password": "myPassword"
@@ -38,3 +38,13 @@ NPages.nav(User).initRequestObject()
 	   .verifyChildPropertyInResponse('firstName', first_name)
 	   .verifyChildPropertyInResponse('lastName', last_name)
 	   .verifyChildPropertyInResponse('email', email)
+	   
+'3. User call Delete User API and verify the API status return 503 and response body contains the "Application Error" title'
+String token = NPages.nav(User).getTextOfPropertyResponse(token)							 
+NPages.nav(User).initRequestObject()
+	   .setUrl('/user')
+	   .setBasicAuthorizationHeader(token)   
+	   .setJsonContentTypeHeader()
+	   .sendDeleteRequest()
+	   .verifyStatusCode(503)
+	   .verifyContentOfResponse(expected_message)									

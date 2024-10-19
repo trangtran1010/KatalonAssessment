@@ -4,22 +4,19 @@ import katalon.common.page.SignUpPage
 import katalon.common.table.ContactListPage
 import katalon.fw.lib.NPages
 
-'1. User enter credential to login to the system'
-NPages.nav(LoginPage).enterCredential().clickSubmit()
+'1. User enter open the system'
+NPages.nav(LoginPage).openBrowser()
 
-'2. Verify user logined sucessfully'
-NPages.nav(HeaderPage).verifyUserLoginSucess()
-
-'3. User detete user with the same email before register new user'
-NPages.nav(ContactListPage).cleanUpDataTest(email)
-
-'4. User close and open system'
-NPages.nav(LoginPage).closeAndReopenBrowser()
-
-'4. User click Sign up button to open Add User page'
+'2. User click Sign up button to open Add User page'
 NPages.nav(LoginPage).clickSignUpButton()
 
 '3. On Sign up page, User enter First Name, Last Name, Email, Password'
+String generateEmail() {
+	return "signup" + (new Random().nextInt(10000)) + "@gmail.com"
+}
+
+String email = generateEmail()
+
 NPages.nav(SignUpPage).inputFirstName(first_name)
 	.inputLastName(last_name)
 	.inputEmail(email)
@@ -28,9 +25,7 @@ NPages.nav(SignUpPage).inputFirstName(first_name)
 '4. Click Submit button'
 NPages.nav(SignUpPage).clickSubmitButton()
 
-'5. Verify User is registered and login successfully'
+'5. Verify User is registered and navigate to Contact List page successfully'
 NPages.nav(HeaderPage).verifyUserLoginSucess()
 
 NPages.takeScreenShot()
-
-

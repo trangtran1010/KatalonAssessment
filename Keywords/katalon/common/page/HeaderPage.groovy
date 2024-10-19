@@ -12,7 +12,7 @@ public class HeaderPage extends BasePage<HeaderPage> {
 	 * @return the current page instance
 	 */
 	def HeaderPage verifyUserLoginSucess () {
-		WebUI.verifyElementPresent(btn('logout'), GlobalVariable.smallSleepTime)
+		WebUI.verifyElementPresent(byXpath("//h1[text()='Contact List']"), GlobalVariable.smallSleepTime)
 		return this
 	}
 

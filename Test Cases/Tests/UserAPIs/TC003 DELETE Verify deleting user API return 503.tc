@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC003 DELETE Verify deleting contact API return 503</name>
+   <name>TC003 DELETE Verify deleting user API return 503</name>
    <tag>High, Performance,Service Now API</tag>
    <comment></comment>
-   <testCaseGuid>e3bc1326-f002-4f2a-b9bd-10233fcd805c</testCaseGuid>
+   <testCaseGuid>0f060732-eecd-4473-b897-76b1c344e40f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3b40f973-0526-4f8c-aad9-a8252be45574</variableId>
+      <variableId>d0738144-d4a3-44e3-b07f-aa21a9921149</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f53a0c31-0b4e-4fa8-acfc-d84de198b05e</variableId>
+      <variableId>c534ed7f-c6b8-44a8-a822-c7aae2bf7718</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6af9b781-93df-490b-bb1a-63234291d171</variableId>
+      <variableId>870e1cb9-4634-45d7-affe-71be48548478</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7fa27495-5790-4344-8fd7-0fb21ca7b0df</variableId>
+      <variableId>97a156ba-5bed-4fbb-880d-baade984938c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1344977e-54a7-446e-8bef-812b8ca974de</variableId>
+      <variableId>b7b0b078-5bba-4fa6-884b-10dc81bef67f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c6e133f8-64c0-462c-87bd-77adca8ae8ec</variableId>
+      <variableId>fd134146-d751-450c-b63a-eed4208c1ca0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9aa725b0-db6a-4130-b52e-df6a74f5e17d</variableId>
+      <variableId>4a92de5b-aeba-4dc8-88bb-eca41be7edf7</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
       <description></description>
-      <id>3b40f973-0526-4f8c-aad9-a8252be45574</id>
+      <id>d0738144-d4a3-44e3-b07f-aa21a9921149</id>
       <masked>false</masked>
       <name>login_body</name>
    </variable>
    <variable>
       <defaultValue>'Application Error'</defaultValue>
       <description></description>
-      <id>f53a0c31-0b4e-4fa8-acfc-d84de198b05e</id>
+      <id>c534ed7f-c6b8-44a8-a822-c7aae2bf7718</id>
       <masked>false</masked>
       <name>expected_message</name>
    </variable>
    <variable>
       <defaultValue>'token'</defaultValue>
       <description></description>
-      <id>6af9b781-93df-490b-bb1a-63234291d171</id>
+      <id>870e1cb9-4634-45d7-affe-71be48548478</id>
       <masked>false</masked>
       <name>token</name>
    </variable>
    <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC003&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;contactautotest.tc003@gmail.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC003&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test&quot;,\r\n    &quot;email&quot;: &quot;userautotest8.tc003@gmail.com&quot;,\r\n    &quot;password&quot;: &quot;myPassword&quot;\r\n}'</defaultValue>
       <description></description>
-      <id>7fa27495-5790-4344-8fd7-0fb21ca7b0df</id>
+      <id>97a156ba-5bed-4fbb-880d-baade984938c</id>
       <masked>false</masked>
-      <name>add_contact_body</name>
+      <name>add_user_body</name>
    </variable>
    <variable>
       <defaultValue>'TC003'</defaultValue>
       <description></description>
-      <id>1344977e-54a7-446e-8bef-812b8ca974de</id>
+      <id>b7b0b078-5bba-4fa6-884b-10dc81bef67f</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
-      <defaultValue>'Contact Auto Test'</defaultValue>
+      <defaultValue>'User Auto Test'</defaultValue>
       <description></description>
-      <id>c6e133f8-64c0-462c-87bd-77adca8ae8ec</id>
+      <id>fd134146-d751-450c-b63a-eed4208c1ca0</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'contactautotest.tc003@gmail.com'</defaultValue>
+      <defaultValue>'userautotest8.tc003@gmail.com'</defaultValue>
       <description></description>
-      <id>9aa725b0-db6a-4130-b52e-df6a74f5e17d</id>
+      <id>4a92de5b-aeba-4dc8-88bb-eca41be7edf7</id>
       <masked>false</masked>
       <name>email</name>
    </variable>

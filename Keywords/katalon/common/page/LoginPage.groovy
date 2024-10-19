@@ -8,9 +8,8 @@ import katalon.fw.lib.BasePage
 class LoginPage extends BasePage<LoginPage>{
 
 
-	def LoginPage enterCredential (String user = GlobalVariable.userEmail) {
+	def LoginPage enterCredential (String user = GlobalVariable.userEmail, String pwd = CryptoUtil.decode(CryptoUtil.getDefault(GlobalVariable.pwd))) {
 		WebUI.navigateToUrl(GlobalVariable.env)
-		String pwd = CryptoUtil.decode(CryptoUtil.getDefault(GlobalVariable.pwd))
 		WebUI.sendKeys(byId('email'),user)
 		WebUI.sendKeys(byId('password'),pwd)
 		return this

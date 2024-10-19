@@ -87,7 +87,7 @@
       <variableId>def67dcb-5583-463d-afa4-d79f6bae9490</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'TC003 User Auto Test'</defaultValue>
+      <defaultValue>'TC003 Contact Auto Test'</defaultValue>
       <description></description>
       <id>ecaadfec-548e-40c0-9995-578c14e5e051</id>
       <masked>false</masked>
@@ -101,7 +101,7 @@
       <name>first_name</name>
    </variable>
    <variable>
-      <defaultValue>'User Auto Test'</defaultValue>
+      <defaultValue>'Contact Auto Test'</defaultValue>
       <description></description>
       <id>68dfd603-e46f-44b7-8450-6a4d7a7a9585</id>
       <masked>false</masked>
@@ -115,7 +115,7 @@
       <name>date_of_birth</name>
    </variable>
    <variable>
-      <defaultValue>'autouser@gmail.com'</defaultValue>
+      <defaultValue>'contactautouser.tc003@gmail.com'</defaultValue>
       <description></description>
       <id>0ad458b4-dcc2-4f8d-8845-501982295a92</id>
       <masked>false</masked>

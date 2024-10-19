@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 PUT Verify updating contact API return 503</name>
+   <tag>High, Performance,Service Now API</tag>
+   <comment></comment>
+   <testCaseGuid>aa8d26a0-b7ab-429e-9f3e-90f59433a73e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>178f7ffd-b462-4fbe-af18-217bcf28474a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d600ec16-5440-4d78-9034-20f598a43555</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d89f0d70-b65d-4668-b6e1-2643d27892a0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b4ada044-93f7-47cd-81c2-5149aa33de43</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>221c838a-e789-45f7-aeea-468d64515171</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cdaf2fdc-d643-49d7-8225-c6032558a81a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcf27df0-263d-4a38-bef1-64e1afd6d8a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;contactautotest.tc002@gmail.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>178f7ffd-b462-4fbe-af18-217bcf28474a</id>
+      <masked>false</masked>
+      <name>add_contact_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>d600ec16-5440-4d78-9034-20f598a43555</id>
+      <masked>false</masked>
+      <name>login_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'token'</defaultValue>
+      <description></description>
+      <id>d89f0d70-b65d-4668-b6e1-2643d27892a0</id>
+      <masked>false</masked>
+      <name>token</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC001'</defaultValue>
+      <description></description>
+      <id>b4ada044-93f7-47cd-81c2-5149aa33de43</id>
+      <masked>false</masked>
+      <name>first_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Contact Auto Test'</defaultValue>
+      <description></description>
+      <id>221c838a-e789-45f7-aeea-468d64515171</id>
+      <masked>false</masked>
+      <name>last_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'contactautotest.tc002@gmail.com'</defaultValue>
+      <description></description>
+      <id>cdaf2fdc-d643-49d7-8225-c6032558a81a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002 Edit&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test Edit&quot;,\r\n    &quot;email&quot;: &quot;contactautotest7edit.tc002@gmail.com&quot;,\r\n    &quot;password&quot;: &quot;myPasswordEdit&quot;\r\n}'</defaultValue>
+      <description></description>
+      <id>fcf27df0-263d-4a38-bef1-64e1afd6d8a0</id>
+      <masked>false</masked>
+      <name>update_contact_body</name>
+   </variable>
+</TestCaseEntity>

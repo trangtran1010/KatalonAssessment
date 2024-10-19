@@ -45,12 +45,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>99f0c8a5-a986-439a-9a3f-0f90637ef52a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>9f34f8e3-d264-4482-9dd7-4fd8c40e1c40</variableId>
    </variableLinks>
    <variableLinks>
@@ -90,7 +84,7 @@
       <variableId>0a48d337-3160-40e3-aff6-173c35865f8b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;contactautotest@tc001.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;contactautotest.tc001@gmail.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
       <description></description>
       <id>5c11a575-09a4-4cce-82e9-1696aedba7fa</id>
       <masked>false</masked>
@@ -130,13 +124,6 @@
       <id>3b9c734a-3128-4f24-945d-38dff4088cc5</id>
       <masked>false</masked>
       <name>birthday</name>
-   </variable>
-   <variable>
-      <defaultValue>'contactautotest@tc001.com'</defaultValue>
-      <description></description>
-      <id>99f0c8a5-a986-439a-9a3f-0f90637ef52a</id>
-      <masked>false</masked>
-      <name>email</name>
    </variable>
    <variable>
       <defaultValue>'8005555555'</defaultValue>

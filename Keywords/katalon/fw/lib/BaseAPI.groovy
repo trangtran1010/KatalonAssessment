@@ -43,6 +43,13 @@ public class BaseAPI <T> {
 		return this
 	}
 
+	def T sendPutRequest() {
+		request.setHttpHeaderProperties(httpHeader)
+		request.setRestRequestMethod('PUT')
+		response = WS.sendRequest(request, FailureHandling.STOP_ON_FAILURE)
+		return this
+	}
+	
 	def T sendPostRequest() {
 		request.setHttpHeaderProperties(httpHeader)
 		request.setRestRequestMethod('POST')
@@ -64,7 +71,6 @@ public class BaseAPI <T> {
 
 	def verifyPropertyValueReponse (String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		System.out.println(jsonResponse)
 		desiredValue = jsonResponse[property]
 		WS.verifyEqual(jsonResponse[property], expected)
 		return this
@@ -113,12 +119,13 @@ public class BaseAPI <T> {
 	
 	def verifyChildPropertyInResponse(String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
+		println(jsonResponse)
 		desiredValue = jsonResponse.user[property]
 
-		if (jsonResponse == expected) {
-			throw new Exception("${property} ${expected} exists in the response.")
+		if (desiredValue == expected) {
+			println("${property} ${expected} exist in the response.")
 		} else {
-			println("${property} ${expected} does not exist in the response.")
+			throw new Exception("${property} ${expected} does not in the response.")
 		}
 		return this
 	}
