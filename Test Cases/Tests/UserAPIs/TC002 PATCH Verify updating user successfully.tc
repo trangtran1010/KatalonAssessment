@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC002 PUT Verify updating user API return 503</name>
+   <name>TC002 PATCH Verify updating user successfully</name>
    <tag>High, Performance,Service Now API</tag>
    <comment></comment>
    <testCaseGuid>09a4884f-d47a-494a-95bd-84f5900fffd4</testCaseGuid>
@@ -51,7 +51,25 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>540acda8-a0a1-4381-993e-eeb3e2dfe260</variableId>
+      <variableId>a45f26f8-c4fe-4a5f-8d83-42284388aad4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54115ea4-d181-4131-8d59-e66a25be6ece</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>488cdf1b-5de2-4417-9e5c-3b92e9f9fa6b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3d6358a-0f7c-41af-ae80-401d26a486a2</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test&quot;,\r\n    &quot;email&quot;: &quot;userautotest8.tc002@gmail.com&quot;,\r\n    &quot;password&quot;: &quot;myPassword&quot;\r\n}'</defaultValue>
@@ -89,11 +107,11 @@
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'userautotest8.tc002@gmail.com'</defaultValue>
+      <defaultValue>'tc002'</defaultValue>
       <description></description>
       <id>e7ae765c-7bcf-4bc1-a5d6-82276ddc1bb4</id>
       <masked>false</masked>
-      <name>email</name>
+      <name>pre_fix_email</name>
    </variable>
    <variable>
       <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002 Edit&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test Edit&quot;,\r\n    &quot;email&quot;: &quot;userautotest7edit@tc002.com&quot;,\r\n    &quot;password&quot;: &quot;myPasswordEdit&quot;\r\n}'</defaultValue>
@@ -103,10 +121,31 @@
       <name>update_user_body</name>
    </variable>
    <variable>
-      <defaultValue>'Application Error'</defaultValue>
+      <defaultValue>'TC002 Edit'</defaultValue>
       <description></description>
-      <id>540acda8-a0a1-4381-993e-eeb3e2dfe260</id>
+      <id>a45f26f8-c4fe-4a5f-8d83-42284388aad4</id>
       <masked>false</masked>
-      <name>expected_message</name>
+      <name>first_name_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'User Auto Test Edit'</defaultValue>
+      <description></description>
+      <id>54115ea4-d181-4131-8d59-e66a25be6ece</id>
+      <masked>false</masked>
+      <name>last_name_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'myPasswordEdit'</defaultValue>
+      <description></description>
+      <id>488cdf1b-5de2-4417-9e5c-3b92e9f9fa6b</id>
+      <masked>false</masked>
+      <name>password_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'myPassword'</defaultValue>
+      <description></description>
+      <id>c3d6358a-0f7c-41af-ae80-401d26a486a2</id>
+      <masked>false</masked>
+      <name>password</name>
    </variable>
 </TestCaseEntity>

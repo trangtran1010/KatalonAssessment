@@ -53,12 +53,18 @@
          <value></value>
          <variableId>d36f183d-f014-43bb-9f85-09806ddc4a8f</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bdfdf276-7c00-4f1c-bb63-a8c02ba0343e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b9836cf2-5bcf-409c-ad24-bbf585a0b667</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/UserAPIs/TC002 PUT Verify updating user API return 503</testCaseId>
+      <testCaseId>Test Cases/Tests/UserAPIs/TC002 PATCH Verify updating user successfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -106,7 +112,25 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>540acda8-a0a1-4381-993e-eeb3e2dfe260</variableId>
+         <variableId>a45f26f8-c4fe-4a5f-8d83-42284388aad4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>54115ea4-d181-4131-8d59-e66a25be6ece</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>488cdf1b-5de2-4417-9e5c-3b92e9f9fa6b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c3d6358a-0f7c-41af-ae80-401d26a486a2</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -156,6 +180,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>4a92de5b-aeba-4dc8-88bb-eca41be7edf7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ed41373-a859-4b15-8b3b-92cf20c8be49</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

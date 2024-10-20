@@ -50,6 +50,13 @@ public class BaseAPI <T> {
 		return this
 	}
 	
+	def T sendPatchRequest() {
+		request.setHttpHeaderProperties(httpHeader)
+		request.setRestRequestMethod('PATCH')
+		response = WS.sendRequest(request, FailureHandling.STOP_ON_FAILURE)
+		return this
+	}
+	
 	def T sendPostRequest() {
 		request.setHttpHeaderProperties(httpHeader)
 		request.setRestRequestMethod('POST')
@@ -64,25 +71,30 @@ public class BaseAPI <T> {
 		return this
 	}
 
-	def verifyStatusCode (int statusCode) {
+	def T verifyStatusCode (int statusCode) {
 		WS.verifyResponseStatusCode(response, statusCode)
 		return this
 	}
+	
+	def T generateEmail(String value) {
+		return value + (new Random().nextInt(10000)) + "@gmail.com"
+	}
 
-	def verifyPropertyValueReponse (String property, String expected) {
+	def T verifyPropertyValueReponse (String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
 		desiredValue = jsonResponse[property]
 		WS.verifyEqual(jsonResponse[property], expected)
 		return this
 	}
 
-	def getTextOfPropertyResponse (String property) {
+	def T getTextOfPropertyResponse (String property) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
+		println (jsonResponse)
 		desiredValue = jsonResponse[property]
 		return desiredValue
 	}
 
-	def verifyPropertyNotInResponse(String property, String expected) {
+	def T verifyPropertyNotInResponse(String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
 		desiredValue = jsonResponse[property]
 
@@ -94,7 +106,7 @@ public class BaseAPI <T> {
 		return this
 	}
 
-	def verifyPropertyValueExistInResponse(String property, String expected) {
+	def T verifyPropertyValueExistInResponse(String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
 		desiredValue = jsonResponse[property]
 
@@ -106,7 +118,7 @@ public class BaseAPI <T> {
 		return this
 	}
 	
-	def verifyContentOfResponse(String expected) {
+	def T verifyContentOfResponse(String expected) {
 		jsonResponse = response.getResponseBodyContent()
 
 		if (jsonResponse.contains(expected)) {
@@ -117,7 +129,7 @@ public class BaseAPI <T> {
 		return this
 	}
 	
-	def verifyChildPropertyInResponse(String property, String expected) {
+	def T verifyChildPropertyInResponse(String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
 		println(jsonResponse)
 		desiredValue = jsonResponse.user[property]

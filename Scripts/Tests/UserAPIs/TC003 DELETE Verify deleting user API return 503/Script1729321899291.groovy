@@ -12,18 +12,14 @@ NPages.nav(User).initRequestObject()
 		
 '2. User create an user'		
 String token = NPages.nav(User).getTextOfPropertyResponse(token)	
-		
-String generateEmail() {
-    return "tc003" + (new Random().nextInt(10000)) + "@gmail.com"
-}
 
-String email = generateEmail()
+String email = NPages.nav(User).generateEmail(pre_fix_email)
 
 def requestBody = [
-    "firstName": "TC003",
-    "lastName": "User Auto Test",
+    "firstName": first_name,
+    "lastName": last_name,
     "email": email,
-    "password": "myPassword"
+    "password": password
 ]
 
 String jsonBody = new groovy.json.JsonBuilder(requestBody).toString()
@@ -40,9 +36,8 @@ NPages.nav(User).initRequestObject()
 	   .verifyChildPropertyInResponse('email', email)
 	   
 '3. User call Delete User API and verify the API status return 503 and response body contains the "Application Error" title'
-String token = NPages.nav(User).getTextOfPropertyResponse(token)							 
 NPages.nav(User).initRequestObject()
-	   .setUrl('/user')
+	   .setUrl('/users')
 	   .setBasicAuthorizationHeader(token)   
 	   .setJsonContentTypeHeader()
 	   .sendDeleteRequest()

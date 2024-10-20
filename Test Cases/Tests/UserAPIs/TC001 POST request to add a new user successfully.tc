@@ -41,6 +41,12 @@
       <value></value>
       <variableId>d36f183d-f014-43bb-9f85-09806ddc4a8f</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bdfdf276-7c00-4f1c-bb63-a8c02ba0343e</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test&quot;,\r\n    &quot;email&quot;: &quot;userautotest3.tc001@gmail.com&quot;,\r\n    &quot;password&quot;: &quot;myPassword&quot;\r\n}'</defaultValue>
       <description></description>
@@ -49,11 +55,11 @@
       <name>add_user_body</name>
    </variable>
    <variable>
-      <defaultValue>'userautotest3.tc001@gmail.com'</defaultValue>
+      <defaultValue>'tc001'</defaultValue>
       <description></description>
       <id>a888ee91-2e1c-4825-af87-31d99071e25b</id>
       <masked>false</masked>
-      <name>email</name>
+      <name>pre_fix_email</name>
    </variable>
    <variable>
       <defaultValue>'token'</defaultValue>
@@ -82,5 +88,12 @@
       <id>d36f183d-f014-43bb-9f85-09806ddc4a8f</id>
       <masked>false</masked>
       <name>login_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'myPassword'</defaultValue>
+      <description></description>
+      <id>bdfdf276-7c00-4f1c-bb63-a8c02ba0343e</id>
+      <masked>false</masked>
+      <name>password</name>
    </variable>
 </TestCaseEntity>

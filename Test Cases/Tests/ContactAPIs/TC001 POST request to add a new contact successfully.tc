@@ -83,6 +83,12 @@
       <value></value>
       <variableId>0a48d337-3160-40e3-aff6-173c35865f8b</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31ed73ff-4327-4fc4-8548-0956afdee00b</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;contactautotest.tc001@gmail.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
       <description></description>
@@ -173,5 +179,12 @@
       <id>0a48d337-3160-40e3-aff6-173c35865f8b</id>
       <masked>false</masked>
       <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'tc001'</defaultValue>
+      <description></description>
+      <id>31ed73ff-4327-4fc4-8548-0956afdee00b</id>
+      <masked>false</masked>
+      <name>pre_fix_email</name>
    </variable>
 </TestCaseEntity>

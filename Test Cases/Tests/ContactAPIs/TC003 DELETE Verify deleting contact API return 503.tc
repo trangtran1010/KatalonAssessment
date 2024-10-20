@@ -47,6 +47,54 @@
       <value></value>
       <variableId>9aa725b0-db6a-4130-b52e-df6a74f5e17d</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>144d6ed0-a02a-4b79-91f8-eb396b488ce1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>68ebe28c-8da1-404a-929f-3f4084b4e70b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>071cd291-eb2d-4b30-b552-01d4d17f78fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a627cad-3db4-4b7e-8a54-5334b5d439d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8973a2ae-8f46-4b48-a67e-8c7a593d21d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eec81d13-ecb5-4091-bcdb-3e18ab6c8b80</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0a04189e-d9eb-464b-bf7e-347071c3e46a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00241e28-5992-4976-a559-51e4cff75099</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
       <description></description>
@@ -90,10 +138,66 @@
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'contactautotest.tc003@gmail.com'</defaultValue>
+      <defaultValue>'tc003'</defaultValue>
       <description></description>
       <id>9aa725b0-db6a-4130-b52e-df6a74f5e17d</id>
       <masked>false</masked>
-      <name>email</name>
+      <name>pre_fix_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'1970-01-01'</defaultValue>
+      <description></description>
+      <id>144d6ed0-a02a-4b79-91f8-eb396b488ce1</id>
+      <masked>false</masked>
+      <name>birthday</name>
+   </variable>
+   <variable>
+      <defaultValue>'8005555555'</defaultValue>
+      <description></description>
+      <id>68ebe28c-8da1-404a-929f-3f4084b4e70b</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 Main St.'</defaultValue>
+      <description></description>
+      <id>071cd291-eb2d-4b30-b552-01d4d17f78fe</id>
+      <masked>false</masked>
+      <name>street1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Apartment A'</defaultValue>
+      <description></description>
+      <id>4a627cad-3db4-4b7e-8a54-5334b5d439d8</id>
+      <masked>false</masked>
+      <name>street2</name>
+   </variable>
+   <variable>
+      <defaultValue>'USA'</defaultValue>
+      <description></description>
+      <id>8973a2ae-8f46-4b48-a67e-8c7a593d21d9</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>'12345'</defaultValue>
+      <description></description>
+      <id>eec81d13-ecb5-4091-bcdb-3e18ab6c8b80</id>
+      <masked>false</masked>
+      <name>postal_code</name>
+   </variable>
+   <variable>
+      <defaultValue>'Anytown'</defaultValue>
+      <description></description>
+      <id>0a04189e-d9eb-464b-bf7e-347071c3e46a</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'KS'</defaultValue>
+      <description></description>
+      <id>00241e28-5992-4976-a559-51e4cff75099</id>
+      <masked>false</masked>
+      <name>state_province</name>
    </variable>
 </TestCaseEntity>

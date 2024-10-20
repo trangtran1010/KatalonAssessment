@@ -12,18 +12,14 @@ NPages.nav(User).initRequestObject()
 
 '2. User create an user'		
 String token = NPages.nav(User).getTextOfPropertyResponse(token)	
-		
-String generateEmail() {
-    return "tc001" + (new Random().nextInt(10000)) + "@gmail.com"
-}
 
-String email = generateEmail()
+String email = NPages.nav(User).generateEmail(pre_fix_email)
 
 def requestBody = [
-    "firstName": "TC001",
-    "lastName": "User Auto Test",
+    "firstName": first_name,
+    "lastName": last_name,
     "email": email,
-    "password": "myPassword"
+    "password": password
 ]
 
 String jsonBody = new groovy.json.JsonBuilder(requestBody).toString()
