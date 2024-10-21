@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>NicusNowAutomation</name>
+   <name>KatalonAssessment</name>
    <tag></tag>
    <UUID>2accbf45-dec5-414e-8a2f-bd8a575f1b58</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>\nicusnowautomation\NicusNowAutomation.prj</projectFileLocation>
+   <projectFileLocation>\KatalonAssessment\KatalonAssessment.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
