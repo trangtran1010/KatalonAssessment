@@ -89,8 +89,7 @@ public class BaseAPI <T> {
 
 	def T getTextOfPropertyResponse (String property) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		println (jsonResponse)
-		desiredValue = jsonResponse[property]
+		desiredValue = jsonResponse[property]		
 		return desiredValue
 	}
 
@@ -131,7 +130,6 @@ public class BaseAPI <T> {
 	
 	def T verifyChildPropertyInResponse(String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		println(jsonResponse)
 		desiredValue = jsonResponse.user[property]
 
 		if (desiredValue == expected) {

@@ -4,7 +4,6 @@ import katalon.fw.lib.NPages
 '1. User login to system to get Token'
 NPages.nav(Contact).initRequestObject()
 		.setUrl('/users/login')
-		.setBasicAuthorizationHeader(token)
 		.setJsonContentTypeHeader()
 		.setPayLoad(login_body)
 		.sendPostRequest()

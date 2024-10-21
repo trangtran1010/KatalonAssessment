@@ -5,15 +5,6 @@
    <tag>High,Smoke,Common Tables</tag>
    <comment></comment>
    <testCaseGuid>122d8d11-3fa4-417c-b694-7f52443e71c1</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>65ca303a-28fe-468a-983f-9982a048cc35</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/CommonTables/Account Categories/C40468</testDataId>
-   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>

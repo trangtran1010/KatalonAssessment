@@ -4,14 +4,13 @@ import katalon.fw.lib.NPages
 '1. User login to system to get Token'
 NPages.nav(User).initRequestObject()
 		.setUrl('/users/login')
-		.setBasicAuthorizationHeader(token)
 		.setJsonContentTypeHeader()
 		.setPayLoad(login_body)
 		.sendPostRequest()
 		.verifyStatusCode(200)
 
 '2. User create an user'		
-String token = NPages.nav(User).getTextOfPropertyResponse(token)	
+String tokenUser1 = NPages.nav(User).getTextOfPropertyResponse(token)	
 		
 String email = NPages.nav(User).generateEmail(pre_fix_email)
 
@@ -26,7 +25,7 @@ String jsonBody = new groovy.json.JsonBuilder(requestBody).toString()
 
 NPages.nav(User).initRequestObject()
 	   .setUrl('/users')
-	   .setBasicAuthorizationHeader(token)   
+	   .setBasicAuthorizationHeader(tokenUser1)   
 	   .setJsonContentTypeHeader()
 	   .setPayLoad(jsonBody)
 	   .sendPostRequest()
@@ -38,7 +37,7 @@ NPages.nav(User).initRequestObject()
 '3. User logout from system'
 NPages.nav(User).initRequestObject()
 	   .setUrl('/users/logout')
-	   .setBasicAuthorizationHeader(token)
+	   .setBasicAuthorizationHeader(tokenUser1)
 	   .setJsonContentTypeHeader()
 	   .sendPostRequest()
 	   .verifyStatusCode(200)
@@ -50,38 +49,37 @@ def loginBody = [
 ]
 
 String jsonLoginBody = new groovy.json.JsonBuilder(loginBody).toString()
+System.out.println(jsonLoginBody)
 
 NPages.nav(User).initRequestObject()
 	   .setUrl('/users/login')
-	   .setBasicAuthorizationHeader(token)
 	   .setJsonContentTypeHeader()
 	   .setPayLoad(jsonLoginBody)
 	   .sendPostRequest()
 	   .verifyStatusCode(200)
 	   
-'5. User call Update User API and verify data is updated successfully'
-token = NPages.nav(User).getTextOfPropertyResponse(token)
+'5. User call Update User API to update first name and last name'
+// Verify first name and last name are updated successfully
+// Verify email is not updated
 
-String emailEdit = NPages.nav(User).generateEmail(pre_fix_email)
+String tokenUser2 = NPages.nav(User).getTextOfPropertyResponse(token)
 
 def requestBodyEdit = [
 	"firstName": first_name_edit,
-	"lastName": last_name_edit,
-	"email": email,
-	"password": password_edit
+	"lastName": last_name_edit
 ]
 
 String jsonBodyEdit = new groovy.json.JsonBuilder(requestBodyEdit).toString()
 
 NPages.nav(User).initRequestObject()
 		.setUrl('/users/me')
-		.setBasicAuthorizationHeader(token)
+		.setBasicAuthorizationHeader(tokenUser2)
 		.setJsonContentTypeHeader()
 		.setPayLoad(jsonBodyEdit)
-		.sendPostRequest()
+		.sendPatchRequest()
 		.verifyStatusCode(200)
 		.verifyPropertyValueExistInResponse('firstName', first_name_edit)
 		.verifyPropertyValueExistInResponse('lastName', last_name_edit)
-		.verifyPropertyValueExistInResponse('email', emailEdit)
-		.verifyPropertyValueExistInResponse('password', password_edit)
+		.verifyPropertyValueExistInResponse('email', email)
+
 										
