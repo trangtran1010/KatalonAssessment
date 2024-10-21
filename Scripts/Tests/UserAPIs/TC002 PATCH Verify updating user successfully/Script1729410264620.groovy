@@ -64,18 +64,11 @@ NPages.nav(User).initRequestObject()
 
 String tokenUser2 = NPages.nav(User).getTextOfPropertyResponse(token)
 
-def requestBodyEdit = [
-	"firstName": first_name_edit,
-	"lastName": last_name_edit
-]
-
-String jsonBodyEdit = new groovy.json.JsonBuilder(requestBodyEdit).toString()
-
 NPages.nav(User).initRequestObject()
 		.setUrl('/users/me')
 		.setBasicAuthorizationHeader(tokenUser2)
 		.setJsonContentTypeHeader()
-		.setPayLoad(jsonBodyEdit)
+		.setPayLoad(update_user_body)
 		.sendPatchRequest()
 		.verifyStatusCode(200)
 		.verifyPropertyValueExistInResponse('firstName', first_name_edit)

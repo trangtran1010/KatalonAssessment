@@ -108,7 +108,7 @@
       <name>pre_fix_email</name>
    </variable>
    <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002 Edit&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test Edit&quot;,\r\n    &quot;email&quot;: &quot;userautotest7edit@tc002.com&quot;,\r\n    &quot;password&quot;: &quot;myPasswordEdit&quot;\r\n}'</defaultValue>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002 Edit&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test Edit&quot;\r\n}'</defaultValue>
       <description></description>
       <id>3dcf6ed5-91f3-44aa-b7fd-3d77db133f17</id>
       <masked>false</masked>
