@@ -15,7 +15,7 @@
       <guid>40c4a771-82d1-4668-94a8-8e1fcc3e3fef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/UserAPIs/TC001 POST request to add a new user successfully</testCaseId>
+      <testCaseId>Test Cases/Tests/UserAPIs/TC001 POST Verify adding a new user sucessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -64,7 +64,7 @@
       <guid>b9836cf2-5bcf-409c-ad24-bbf585a0b667</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/UserAPIs/TC002 PATCH Verify updating user successfully</testCaseId>
+      <testCaseId>Test Cases/Tests/UserAPIs/TC002 PATCH Verify editing a user sucessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -131,7 +131,7 @@
       <guid>bf86f5d2-0d25-4db1-9020-28141e974a9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/UserAPIs/TC003 DELETE Verify deleting user API return 503</testCaseId>
+      <testCaseId>Test Cases/Tests/UserAPIs/TC003 DELETE Verify deleting a user sucessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

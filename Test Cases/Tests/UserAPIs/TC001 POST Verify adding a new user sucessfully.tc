@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC001 POST request to add a new user successfully</name>
+   <name>TC001 POST Verify adding a new user sucessfully</name>
    <tag>High, Performance,Service Now API</tag>
    <comment></comment>
    <testCaseGuid>3f771792-3b1e-4fa8-9777-da50d4d1b102</testCaseGuid>

@@ -15,7 +15,7 @@
       <guid>e63637d2-8ed6-409b-9480-3b498553c98a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/ContactAPIs/TC001 POST request to add a new contact successfully</testCaseId>
+      <testCaseId>Test Cases/Tests/ContactAPIs/TC001 POST Verify adding a new contact sucessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -106,7 +106,7 @@
       <guid>a11bfb8d-2a50-425e-9791-12062eb7db6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/ContactAPIs/TC002 PUT Verify updating contact API return 503</testCaseId>
+      <testCaseId>Test Cases/Tests/ContactAPIs/TC002 PUT Verify editing a contact unsucessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -209,7 +209,7 @@
       <guid>5dcd48eb-ed97-4002-9a5d-7f3ac8d7481f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tests/ContactAPIs/TC003 DELETE Verify deleting contact API return 503</testCaseId>
+      <testCaseId>Test Cases/Tests/ContactAPIs/TC003 DELETE Verify deleting a contact unsucessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

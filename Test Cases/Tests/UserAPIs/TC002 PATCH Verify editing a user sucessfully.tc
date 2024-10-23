@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC002 PATCH Verify updating user successfully</name>
+   <name>TC002 PATCH Verify editing a user sucessfully</name>
    <tag>High, Performance,Service Now API</tag>
    <comment></comment>
    <testCaseGuid>09a4884f-d47a-494a-95bd-84f5900fffd4</testCaseGuid>

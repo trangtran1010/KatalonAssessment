@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC003 DELETE Verify deleting user API return 503</name>
+   <name>TC003 DELETE Verify deleting a user sucessfully</name>
    <tag>High, Performance,Service Now API</tag>
    <comment></comment>
    <testCaseGuid>0f060732-eecd-4473-b897-76b1c344e40f</testCaseGuid>

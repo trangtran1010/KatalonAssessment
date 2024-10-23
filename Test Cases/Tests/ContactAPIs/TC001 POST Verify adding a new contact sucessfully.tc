@@ -1,203 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC003 DELETE Verify deleting contact API return 503</name>
+   <name>TC001 POST Verify adding a new contact sucessfully</name>
    <tag>High, Performance,Service Now API</tag>
    <comment></comment>
-   <testCaseGuid>e3bc1326-f002-4f2a-b9bd-10233fcd805c</testCaseGuid>
+   <testCaseGuid>c7a798e2-b51c-4581-b7ea-8febb7ab06a8</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3b40f973-0526-4f8c-aad9-a8252be45574</variableId>
+      <variableId>5c11a575-09a4-4cce-82e9-1696aedba7fa</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f53a0c31-0b4e-4fa8-acfc-d84de198b05e</variableId>
+      <variableId>63ec0a27-577a-457e-bd84-b58dbb64dfda</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6af9b781-93df-490b-bb1a-63234291d171</variableId>
+      <variableId>eb5d5f2c-36bd-446f-add6-8567589de211</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>7fa27495-5790-4344-8fd7-0fb21ca7b0df</variableId>
+      <variableId>ccabcd28-c652-47df-aa9c-406a8a8ed021</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1344977e-54a7-446e-8bef-812b8ca974de</variableId>
+      <variableId>1ab396e4-f9f3-45c4-8c6c-a612fb26dd96</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c6e133f8-64c0-462c-87bd-77adca8ae8ec</variableId>
+      <variableId>3b9c734a-3128-4f24-945d-38dff4088cc5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9aa725b0-db6a-4130-b52e-df6a74f5e17d</variableId>
+      <variableId>9f34f8e3-d264-4482-9dd7-4fd8c40e1c40</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>144d6ed0-a02a-4b79-91f8-eb396b488ce1</variableId>
+      <variableId>6f4b9826-20d4-472c-9126-7ff24dc4120c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>68ebe28c-8da1-404a-929f-3f4084b4e70b</variableId>
+      <variableId>27881408-5a6f-42ef-b84e-58ab9f7b05da</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>071cd291-eb2d-4b30-b552-01d4d17f78fe</variableId>
+      <variableId>d50c8a0b-dd43-4742-a24d-96cbfa49662f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4a627cad-3db4-4b7e-8a54-5334b5d439d8</variableId>
+      <variableId>4b5023d8-94d8-4ed9-83bf-a9893c923d22</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8973a2ae-8f46-4b48-a67e-8c7a593d21d9</variableId>
+      <variableId>901184f6-7e15-4c10-aafb-a3c01544b6e9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>eec81d13-ecb5-4091-bcdb-3e18ab6c8b80</variableId>
+      <variableId>0a48d337-3160-40e3-aff6-173c35865f8b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0a04189e-d9eb-464b-bf7e-347071c3e46a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>00241e28-5992-4976-a559-51e4cff75099</variableId>
+      <variableId>31ed73ff-4327-4fc4-8548-0956afdee00b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
+      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;contactautotest.tc001@gmail.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
       <description></description>
-      <id>3b40f973-0526-4f8c-aad9-a8252be45574</id>
-      <masked>false</masked>
-      <name>login_body</name>
-   </variable>
-   <variable>
-      <defaultValue>'Application Error'</defaultValue>
-      <description></description>
-      <id>f53a0c31-0b4e-4fa8-acfc-d84de198b05e</id>
-      <masked>false</masked>
-      <name>expected_message</name>
-   </variable>
-   <variable>
-      <defaultValue>'token'</defaultValue>
-      <description></description>
-      <id>6af9b781-93df-490b-bb1a-63234291d171</id>
-      <masked>false</masked>
-      <name>token</name>
-   </variable>
-   <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC003&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;contactautotest.tc003@gmail.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
-      <description></description>
-      <id>7fa27495-5790-4344-8fd7-0fb21ca7b0df</id>
+      <id>5c11a575-09a4-4cce-82e9-1696aedba7fa</id>
       <masked>false</masked>
       <name>add_contact_body</name>
    </variable>
    <variable>
-      <defaultValue>'TC003'</defaultValue>
+      <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
       <description></description>
-      <id>1344977e-54a7-446e-8bef-812b8ca974de</id>
+      <id>63ec0a27-577a-457e-bd84-b58dbb64dfda</id>
+      <masked>false</masked>
+      <name>login_body</name>
+   </variable>
+   <variable>
+      <defaultValue>'token'</defaultValue>
+      <description></description>
+      <id>eb5d5f2c-36bd-446f-add6-8567589de211</id>
+      <masked>false</masked>
+      <name>token</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC001'</defaultValue>
+      <description></description>
+      <id>ccabcd28-c652-47df-aa9c-406a8a8ed021</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
       <defaultValue>'Contact Auto Test'</defaultValue>
       <description></description>
-      <id>c6e133f8-64c0-462c-87bd-77adca8ae8ec</id>
+      <id>1ab396e4-f9f3-45c4-8c6c-a612fb26dd96</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
-      <defaultValue>'tc003'</defaultValue>
-      <description></description>
-      <id>9aa725b0-db6a-4130-b52e-df6a74f5e17d</id>
-      <masked>false</masked>
-      <name>pre_fix_email</name>
-   </variable>
-   <variable>
       <defaultValue>'1970-01-01'</defaultValue>
       <description></description>
-      <id>144d6ed0-a02a-4b79-91f8-eb396b488ce1</id>
+      <id>3b9c734a-3128-4f24-945d-38dff4088cc5</id>
       <masked>false</masked>
       <name>birthday</name>
    </variable>
    <variable>
       <defaultValue>'8005555555'</defaultValue>
       <description></description>
-      <id>68ebe28c-8da1-404a-929f-3f4084b4e70b</id>
+      <id>9f34f8e3-d264-4482-9dd7-4fd8c40e1c40</id>
       <masked>false</masked>
       <name>phone</name>
    </variable>
    <variable>
       <defaultValue>'1 Main St.'</defaultValue>
       <description></description>
-      <id>071cd291-eb2d-4b30-b552-01d4d17f78fe</id>
+      <id>6f4b9826-20d4-472c-9126-7ff24dc4120c</id>
       <masked>false</masked>
       <name>street1</name>
    </variable>
    <variable>
       <defaultValue>'Apartment A'</defaultValue>
       <description></description>
-      <id>4a627cad-3db4-4b7e-8a54-5334b5d439d8</id>
+      <id>27881408-5a6f-42ef-b84e-58ab9f7b05da</id>
       <masked>false</masked>
       <name>street2</name>
    </variable>
    <variable>
-      <defaultValue>'USA'</defaultValue>
+      <defaultValue>'KS'</defaultValue>
       <description></description>
-      <id>8973a2ae-8f46-4b48-a67e-8c7a593d21d9</id>
+      <id>d50c8a0b-dd43-4742-a24d-96cbfa49662f</id>
       <masked>false</masked>
-      <name>country</name>
+      <name>state_province</name>
    </variable>
    <variable>
       <defaultValue>'12345'</defaultValue>
       <description></description>
-      <id>eec81d13-ecb5-4091-bcdb-3e18ab6c8b80</id>
+      <id>4b5023d8-94d8-4ed9-83bf-a9893c923d22</id>
       <masked>false</masked>
       <name>postal_code</name>
    </variable>
    <variable>
+      <defaultValue>'USA'</defaultValue>
+      <description></description>
+      <id>901184f6-7e15-4c10-aafb-a3c01544b6e9</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
       <defaultValue>'Anytown'</defaultValue>
       <description></description>
-      <id>0a04189e-d9eb-464b-bf7e-347071c3e46a</id>
+      <id>0a48d337-3160-40e3-aff6-173c35865f8b</id>
       <masked>false</masked>
       <name>city</name>
    </variable>
    <variable>
-      <defaultValue>'KS'</defaultValue>
+      <defaultValue>'tc001'</defaultValue>
       <description></description>
-      <id>00241e28-5992-4976-a559-51e4cff75099</id>
+      <id>31ed73ff-4327-4fc4-8548-0956afdee00b</id>
       <masked>false</masked>
-      <name>state_province</name>
+      <name>pre_fix_email</name>
    </variable>
 </TestCaseEntity>
