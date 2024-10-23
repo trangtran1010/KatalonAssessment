@@ -13,7 +13,6 @@ public class BaseAPI <T> {
 	RequestObject request;
 	ResponseObject response;
 	ArrayList httpHeader;
-	def desiredValue;
 	def jsonResponse;
 
 	def T initRequestObject() {
@@ -82,20 +81,18 @@ public class BaseAPI <T> {
 
 	def T verifyPropertyValueReponse (String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		desiredValue = jsonResponse[property]
 		WS.verifyEqual(jsonResponse[property], expected)
 		return this
 	}
 
 	def T getTextOfPropertyResponse (String property) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		desiredValue = jsonResponse[property]		
+		String desiredValue = jsonResponse[property]		
 		return desiredValue
 	}
 
 	def T verifyPropertyNotInResponse(String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		desiredValue = jsonResponse[property]
 
 		if (jsonResponse.contains(expected)) {
 			throw new Exception("${property} ${expected} exists in the response.")
@@ -107,9 +104,8 @@ public class BaseAPI <T> {
 
 	def T verifyPropertyValueExistInResponse(String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		desiredValue = jsonResponse[property]
 
-		if (desiredValue == expected) {
+		if (jsonResponse[property] == expected) {
 			println("${property} ${expected} exist in the response.")
 		} else {
 			throw new Exception("${property} ${expected} doesn't exists in the response.")
@@ -130,9 +126,8 @@ public class BaseAPI <T> {
 	
 	def T verifyChildPropertyInResponse(String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		desiredValue = jsonResponse.user[property]
 
-		if (desiredValue == expected) {
+		if (jsonResponse.user[property] == expected) {
 			println("${property} ${expected} exist in the response.")
 		} else {
 			throw new Exception("${property} ${expected} does not in the response.")
