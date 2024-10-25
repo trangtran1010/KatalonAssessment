@@ -71,8 +71,8 @@ NPages.nav(User).initRequestObject()
 		.setPayLoad(update_user_body)
 		.sendPatchRequest()
 		.verifyStatusCode(200)
-		.verifyPropertyValueExistInResponse('firstName', first_name_edit)
-		.verifyPropertyValueExistInResponse('lastName', last_name_edit)
-		.verifyPropertyValueExistInResponse('email', email)
+		.verifyPropertyValueReponse('firstName', first_name_edit)
+		.verifyPropertyValueReponse('lastName', last_name_edit)
+		.verifyPropertyValueReponse('email', email)
 
 										

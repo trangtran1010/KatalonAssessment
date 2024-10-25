@@ -9,12 +9,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>178f7ffd-b462-4fbe-af18-217bcf28474a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>d600ec16-5440-4d78-9034-20f598a43555</variableId>
    </variableLinks>
    <variableLinks>
@@ -40,12 +34,6 @@
       <type>DEFAULT</type>
       <value></value>
       <variableId>cdaf2fdc-d643-49d7-8225-c6032558a81a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>fcf27df0-263d-4a38-bef1-64e1afd6d8a0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
@@ -107,13 +95,66 @@
       <value></value>
       <variableId>4a65917b-4d1c-4e95-8ba9-cf3202ec3c6b</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test&quot;,\r\n    &quot;birthdate&quot;: &quot;1970-01-01&quot;,\r\n    &quot;email&quot;: &quot;contactautotest.tc002@gmail.com&quot;,\r\n    &quot;phone&quot;: &quot;8005555555&quot;,\r\n    &quot;street1&quot;: &quot;1 Main St.&quot;,\r\n    &quot;street2&quot;: &quot;Apartment A&quot;,\r\n    &quot;city&quot;: &quot;Anytown&quot;,\r\n    &quot;stateProvince&quot;: &quot;KS&quot;,\r\n    &quot;postalCode&quot;: &quot;12345&quot;,\r\n    &quot;country&quot;: &quot;USA&quot;\r\n}'</defaultValue>
-      <description></description>
-      <id>178f7ffd-b462-4fbe-af18-217bcf28474a</id>
-      <masked>false</masked>
-      <name>add_contact_body</name>
-   </variable>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fab704a0-ae43-4c23-9eeb-a683d04b91dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b3294855-4b8b-4d6d-a849-e82847accf5a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7cf7da3d-1468-4538-9017-389aa0db09c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3817d387-ac6b-43e8-80a8-413b750f3e28</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99aad9be-6e29-431a-904c-dab590790fc8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>032a30a5-32ab-4871-9a2a-fd6cf474babc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54e2b627-9e1d-46d1-ae07-a3e2012010d1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b883d08-9fd6-4174-89de-14ebc985be5c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d58c7f33-5029-48d0-9053-89d23b525237</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0a42e19-5106-4410-86c7-51251ed15cc4</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
       <description></description>
@@ -148,13 +189,6 @@
       <id>cdaf2fdc-d643-49d7-8225-c6032558a81a</id>
       <masked>false</masked>
       <name>email</name>
-   </variable>
-   <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002 Edit&quot;,\r\n    &quot;lastName&quot;: &quot;Contact Auto Test Edit&quot;,\r\n    &quot;email&quot;: &quot;contactautotest7edit.tc002@gmail.com&quot;,\r\n    &quot;password&quot;: &quot;myPasswordEdit&quot;\r\n}'</defaultValue>
-      <description></description>
-      <id>fcf27df0-263d-4a38-bef1-64e1afd6d8a0</id>
-      <masked>false</masked>
-      <name>update_contact_body</name>
    </variable>
    <variable>
       <defaultValue>'tc002'</defaultValue>
@@ -225,5 +259,75 @@
       <id>4a65917b-4d1c-4e95-8ba9-cf3202ec3c6b</id>
       <masked>false</masked>
       <name>expected_message</name>
+   </variable>
+   <variable>
+      <defaultValue>'TC002 Edit'</defaultValue>
+      <description></description>
+      <id>fab704a0-ae43-4c23-9eeb-a683d04b91dc</id>
+      <masked>false</masked>
+      <name>first_name_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Contact Auto Test Edit'</defaultValue>
+      <description></description>
+      <id>b3294855-4b8b-4d6d-a849-e82847accf5a</id>
+      <masked>false</masked>
+      <name>last_name_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000-01-01'</defaultValue>
+      <description></description>
+      <id>7cf7da3d-1468-4538-9017-389aa0db09c9</id>
+      <masked>false</masked>
+      <name>birthday_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'8005555522'</defaultValue>
+      <description></description>
+      <id>3817d387-ac6b-43e8-80a8-413b750f3e28</id>
+      <masked>false</masked>
+      <name>phone_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 Main St. Edit'</defaultValue>
+      <description></description>
+      <id>99aad9be-6e29-431a-904c-dab590790fc8</id>
+      <masked>false</masked>
+      <name>street1_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Apartment A Edit'</defaultValue>
+      <description></description>
+      <id>032a30a5-32ab-4871-9a2a-fd6cf474babc</id>
+      <masked>false</masked>
+      <name>street2_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'Anytown Edit'</defaultValue>
+      <description></description>
+      <id>54e2b627-9e1d-46d1-ae07-a3e2012010d1</id>
+      <masked>false</masked>
+      <name>city_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'KS Edit'</defaultValue>
+      <description></description>
+      <id>9b883d08-9fd6-4174-89de-14ebc985be5c</id>
+      <masked>false</masked>
+      <name>state_province_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'USA Edit'</defaultValue>
+      <description></description>
+      <id>d58c7f33-5029-48d0-9053-89d23b525237</id>
+      <masked>false</masked>
+      <name>country_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>'22222'</defaultValue>
+      <description></description>
+      <id>f0a42e19-5106-4410-86c7-51251ed15cc4</id>
+      <masked>false</masked>
+      <name>postal_code_edit</name>
    </variable>
 </TestCaseEntity>

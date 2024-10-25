@@ -6,6 +6,7 @@ import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.testobject.TestObjectProperty
 import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
 import groovy.json.JsonSlurper
 
 public class BaseAPI <T> {
@@ -81,7 +82,7 @@ public class BaseAPI <T> {
 
 	def T verifyPropertyValueReponse (String property, String expected) {
 		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-		WS.verifyEqual(jsonResponse[property], expected)
+		WS.verifyEqual(jsonResponse[property], expected, FailureHandling.STOP_ON_FAILURE)
 		return this
 	}
 
@@ -90,48 +91,10 @@ public class BaseAPI <T> {
 		String desiredValue = jsonResponse[property]		
 		return desiredValue
 	}
-
-	def T verifyPropertyNotInResponse(String property, String expected) {
-		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-
-		if (jsonResponse.contains(expected)) {
-			throw new Exception("${property} ${expected} exists in the response.")
-		} else {
-			println("${property} ${expected} does not exist in the response.")
-		}
-		return this
-	}
-
-	def T verifyPropertyValueExistInResponse(String property, String expected) {
-		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-
-		if (jsonResponse[property] == expected) {
-			println("${property} ${expected} exist in the response.")
-		} else {
-			throw new Exception("${property} ${expected} doesn't exists in the response.")
-		}
-		return this
-	}
 	
 	def T verifyContentOfResponse(String expected) {
 		jsonResponse = response.getResponseBodyContent()
-
-		if (jsonResponse.contains(expected)) {
-			println("${expected} exist in the response.")
-		} else {
-			throw new Exception("${expected} doesn't exists in the response.")
-		}
-		return this
-	}
-	
-	def T verifyChildPropertyInResponse(String property, String expected) {
-		jsonResponse = new JsonSlurper().parseText(response.getResponseBodyContent())
-
-		if (jsonResponse.user[property] == expected) {
-			println("${property} ${expected} exist in the response.")
-		} else {
-			throw new Exception("${property} ${expected} does not in the response.")
-		}
+		WS.verifyEqual(jsonResponse.contains(expected), true, FailureHandling.STOP_ON_FAILURE)
 		return this
 	}
 

@@ -43,11 +43,29 @@ NPages.nav(Contact).initRequestObject()
 	   .verifyPropertyValueReponse('email', email)
 
 '3. User update the contact'
+String emailEdit = NPages.nav(Contact).generateEmail(pre_fix_email)
+
+def requestBodyEdit = [
+	"email": emailEdit,
+	"firstName": first_name_edit,
+	"lastName": last_name_edit,
+	"birthdate": birthday_edit,
+	"phone": phone_edit,
+	"street1": street1_edit,
+	"street2": street2_edit,
+	"city": city_edit,
+	"stateProvince": state_province_edit,
+	"postalCode": postal_code_edit,
+	"country": country_edit
+]
+
+String jsonBodyEdit = new groovy.json.JsonBuilder(requestBodyEdit).toString()
+
 NPages.nav(Contact).initRequestObject()
 		.setUrl('/contacts')
 		.setBasicAuthorizationHeader(token)
 		.setJsonContentTypeHeader()
-		.setPayLoad(update_contact_body)
+		.setPayLoad(jsonBodyEdit)
 		.sendPutRequest()
 		.verifyStatusCode(503)
 		.verifyContentOfResponse(expected_message)

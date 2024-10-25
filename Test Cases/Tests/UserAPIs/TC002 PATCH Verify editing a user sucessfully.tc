@@ -9,12 +9,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>71d14faf-7fe7-40f7-a6a0-7321f120d2c6</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>e615411d-da7b-4e95-b667-dd2a71d4bf2d</variableId>
    </variableLinks>
    <variableLinks>
@@ -65,13 +59,6 @@
       <value></value>
       <variableId>c3d6358a-0f7c-41af-ae80-401d26a486a2</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC002&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test&quot;,\r\n    &quot;email&quot;: &quot;userautotest8.tc002@gmail.com&quot;,\r\n    &quot;password&quot;: &quot;myPassword&quot;\r\n}'</defaultValue>
-      <description></description>
-      <id>71d14faf-7fe7-40f7-a6a0-7321f120d2c6</id>
-      <masked>false</masked>
-      <name>add_user_body</name>
-   </variable>
    <variable>
       <defaultValue>'{\r\n    &quot;email&quot;: &quot;trangthihuyentran@kms-technology.com&quot;,\r\n    &quot;password&quot;: &quot;Trang@123&quot;\r\n}'</defaultValue>
       <description></description>

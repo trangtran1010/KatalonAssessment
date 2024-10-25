@@ -9,12 +9,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4d91488b-51e4-445e-8c6b-c3a064be608e</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>a888ee91-2e1c-4825-af87-31d99071e25b</variableId>
    </variableLinks>
    <variableLinks>
@@ -47,13 +41,6 @@
       <value></value>
       <variableId>bdfdf276-7c00-4f1c-bb63-a8c02ba0343e</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'{\r\n    &quot;firstName&quot;: &quot;TC001&quot;,\r\n    &quot;lastName&quot;: &quot;User Auto Test&quot;,\r\n    &quot;email&quot;: &quot;userautotest3.tc001@gmail.com&quot;,\r\n    &quot;password&quot;: &quot;myPassword&quot;\r\n}'</defaultValue>
-      <description></description>
-      <id>4d91488b-51e4-445e-8c6b-c3a064be608e</id>
-      <masked>false</masked>
-      <name>add_user_body</name>
-   </variable>
    <variable>
       <defaultValue>'tc001'</defaultValue>
       <description></description>

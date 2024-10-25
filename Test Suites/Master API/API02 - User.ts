@@ -21,12 +21,6 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4d91488b-51e4-445e-8c6b-c3a064be608e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
          <variableId>a888ee91-2e1c-4825-af87-31d99071e25b</variableId>
       </variableLink>
       <variableLink>
@@ -66,12 +60,6 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tests/UserAPIs/TC002 PATCH Verify editing a user sucessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>71d14faf-7fe7-40f7-a6a0-7321f120d2c6</variableId>
-      </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -150,12 +138,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>870e1cb9-4634-45d7-affe-71be48548478</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>97a156ba-5bed-4fbb-880d-baade984938c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
